@@ -1,5 +1,4 @@
-<h1 align="center">Hi 👋, I'm Efrain!</h1>
-<h3 align="center">A passionate full-stack developer from Orlando, FL</h3>
+<h3 align="center">A passionate Full-stack developer from Orlando, FL</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
