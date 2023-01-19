@@ -1,3 +1,4 @@
+<img align="center" src="https://visitor-badge.glitch.me/badge?page_id=page.id&left_color=green&right_color=red" alt="efrainenc" />
 <h2 align='center'>Hi! I'm Efrain!</h2>
 <h3 align="center">A passionate Full-stack developer from Orlando, FL</h3>
 
@@ -7,6 +8,3 @@
 </p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=efrainenc&show_icons=true&theme=dark" alt="efrainenc" /></p>
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=efrainenc&theme=dark)](https://git.io/streak-stats)
-<img align="center" src="https://visitor-badge.glitch.me/badge?page_id=page.id&left_color=green&right_color=red" alt="efrainenc" />
