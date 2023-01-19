@@ -3,8 +3,8 @@ import AboutMe from './AboutMe'
 import ContactMe from './ContactMe'
 import Projects from './Projects'
 
-const Home = () => {
-  return (
+const Home=()=>{
+  return(
     <div>
       <p>Hey! My name's</p>
       <h1>Efrain Encarnacion</h1>

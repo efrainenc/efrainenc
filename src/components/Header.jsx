@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Header = () => {
-  return (
-    <div>
+const Header=()=>{
+  return(
+    <div className='header'>
       <p>light and dark mode button</p>
       <nav>
         <p>Home</p>
