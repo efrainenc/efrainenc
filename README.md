@@ -1,3 +1,4 @@
+<h2 align='center'>Hi! I'm Efrain!</h2>
 <h3 align="center">A passionate Full-stack developer from Orlando, FL</h3>
 
 <h3 align="left">Connect with me:</h3>
@@ -8,3 +9,4 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=efrainenc&show_icons=true&locale=en" alt="efrainenc" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=efrainenc&" alt="efrainenc" /></p>
+![visitors](https://visitor-badge.glitch.me/badge?page_id=page.id&left_color=green&right_color=red)
