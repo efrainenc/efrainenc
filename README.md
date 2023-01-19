@@ -8,5 +8,5 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=efrainenc&show_icons=true&theme=dark" alt="efrainenc" /></p>
 
-<img align="center" src="https://streak-stats.demolab.com/?user=DenverCoder1&theme=dark" alt="efrainenc" />
+<img align="center" src="https://streak-stats.demolab.com/?user=efrainenc&theme=dark" alt="efrainenc" />
 <img align="center" src="https://visitor-badge.glitch.me/badge?page_id=page.id&left_color=green&right_color=red" alt="efrainenc" />
