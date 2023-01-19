@@ -1,4 +1,4 @@
-<img align="center" src="https://visitor-badge.glitch.me/badge?page_id=page.id&left_color=green&right_color=red" alt="efrainenc" />
+<img align="center" src="https://visitor-badge.glitch.me/badge?page_id=page.id&left_color=white&right_color=blue" alt="efrainenc"/>
 <h2 align='center'>Hi! I'm Efrain!</h2>
 <h3 align="center">A passionate Full-stack developer from Orlando, FL</h3>
 
