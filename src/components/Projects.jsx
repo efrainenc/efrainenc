@@ -1,17 +1,20 @@
 import React from 'react'
+import '../scss/Projects.css'
 
 const Projects=()=>{
   return(
-    <div>
+    <div className='projects'>
       <h2>Projects</h2>
       <div>
         <h3>Main Projects</h3>
         <p>Capstone</p>
-        <p>Fotobook</p>
+        <a href='https://fotobook-dark.netlify.app/'>Fotobook</a>
         <p>HAPI HOUR</p>
       </div>
-      <p>Hackathon apps</p>
-      <p>Simon Says</p>
+      <div>
+        <p>Hackathon apps</p>
+        <p>Simon Says</p>
+      </div>
     </div>
   )
 }

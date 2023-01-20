@@ -1,7 +1,38 @@
 :root{
+/* 1 */
+--dark: #61828A;
+--light: #DFE9EB;
+--blue: #ABC3CD;
+--mist: #A9CCCF;
 
+/* 2 */
+--dark1: #303655;
+--light1: #BFCBCE;
+--blue1: #84A7BA;
+--deep: #6F90AF;
+
+--night: #647494;
+
+/* Sky */
+--skyblue: #0487E2;
+--deepskyblue: #0463CA;
+--cloudblue: #B0D6F5;
+--lightskyblue: #65C2F5;
+--brightskyblue: #09B1EC;
+}
+
+body{
+  background-color: var(--lightskyblue);
+  color: var(--light)
 }
 
 .App {
   text-align: center;
+}
+
+.welcome{
+  display: flex;
+  height: 72vh;
+  justify-content: center;
+  flex-direction: column;
 }
