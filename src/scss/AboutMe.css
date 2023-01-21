@@ -1,3 +1,16 @@
 .aboutMe{
+  display: flex;
   height: 50vh;
+  justify-content: end;
+}
+
+.aboutMeContainer{
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  padding: 16px;
+  width: 80%;
+  background-color: rgba(219, 239, 255, 0.4);
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
 }

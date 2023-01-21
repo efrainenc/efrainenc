@@ -2,7 +2,8 @@
   display: flex;
   height: 60px;
   justify-content: space-between;
-  background-color: var(--cloudblue);
+  background-color: transparent;
+  padding: 0 24px;
   z-index: 2;
 }
 
@@ -89,7 +90,7 @@
   padding: 12px 24px;
   background: var(--light);
   opacity: .6;
-  border-radius: 12px;
+  border-radius: 4px;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;

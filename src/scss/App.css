@@ -22,8 +22,10 @@
 }
 
 body{
-  background-color: var(--lightskyblue);
-  color: var(--light)
+  font-family: 'Nanum Myeongjo', serif;
+  background: rgb(169,231,255);
+  background: linear-gradient(0deg, rgba(169,231,255,1) 0%, rgba(45,166,253,1) 100%);
+  color: var(--light);
 }
 
 .App {
@@ -35,4 +37,16 @@ body{
   height: 72vh;
   justify-content: center;
   flex-direction: column;
+  text-shadow: 1px 1px 2px rgba(117, 117, 117, 0.5);
+}
+
+.welcomeContainer{
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  padding: 16px;
+  width: 80%;
+  background-color: rgba(219, 239, 255, 0.4);
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
 }

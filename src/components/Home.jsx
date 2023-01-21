@@ -8,10 +8,12 @@ const Home=()=>{
   return(
     <div>
       <div className='welcome'>
-        <p>Hey! My name's</p>
-        <h1>Efrain Encarnacion</h1>
-        <h2>Full-Stack Developer</h2>
-        <p>intro</p>
+        <div className='welcomeContainer'>
+          <p>Hey! My name's</p>
+          <h1>Efrain Encarnacion</h1>
+          <h2> I'm a Full-Stack Developer from Orlando!</h2>
+          <p>intro</p>
+        </div>
       </div>
       <AboutMe />
       <Projects />
