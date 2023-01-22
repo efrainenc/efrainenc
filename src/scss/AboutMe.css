@@ -1,7 +1,14 @@
+.aboutMe a{
+  text-decoration: none;
+  color: var(--blue1);
+}
+
 .aboutMe{
   display: flex;
+  color: var(--blue1);
   height: 100vh;
   justify-content: center;
+  background: rgb(255, 255, 255);
 }
 
 .aboutMeContainer{

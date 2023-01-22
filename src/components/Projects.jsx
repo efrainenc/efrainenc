@@ -6,7 +6,6 @@ const Projects=()=>{
     <div className='projects'>
       <h2>Projects</h2>
       <div className='mainProjects'>
-        <h3>Main Projects</h3>
         <a href='https://fotobook-dark.netlify.app/'>Fotobook</a>
         <img className='FBimg' src='' />
         <a href='https://HAPI-HOUR.netlify.app/'>HAPI HOUR</a>
