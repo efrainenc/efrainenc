@@ -12,7 +12,6 @@ const Home=()=>{
           <p>Hey! My name's</p>
           <h1>Efrain Encarnacion</h1>
           <h2> I'm a Full-Stack Developer from Orlando!</h2>
-          <p>intro</p>
         </div>
       </div>
       <AboutMe />

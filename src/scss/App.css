@@ -34,7 +34,7 @@ body{
 
 .welcome{
   display: flex;
-  height: 72vh;
+  height: 100vh;
   justify-content: center;
   flex-direction: column;
   text-shadow: 1px 1px 2px rgba(117, 117, 117, 0.5);

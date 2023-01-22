@@ -5,3 +5,9 @@
 .HHimg{
   width: 72vw;
 }
+
+.mainProjects{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

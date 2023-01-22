@@ -6,8 +6,10 @@ const AboutMe=()=>{
       <div className='aboutMe'>
         <div className='aboutMeContainer'>
           <h2>About Me</h2>
-          <p>bio here</p>
-          <p>skills here</p>
+          <p>I’m an experienced Full-stack developer with a strong background in customer service and a proven ability to deliver high-quality, innovative web applications. 
+            Skilled in various programming languages including JavaScript, Python, and Java, as well as popular technologies such as React, Angular, Node.js, and Express. 
+            Strong understanding of database management, including MySQL, MongoDB, and Firebase. Adept at troubleshooting and resolving technical issues, and able to work effectively in 
+            a team environment. A dedicated professional with a strong ability to understand and meet customer needs, resulting in the successful delivery of projects.</p>
           <div align="center">
             <code><img height="25" src="https://user-images.githubusercontent.com/25181517/117201156-9a724800-adec-11eb-9a9d-3cd0f67da4bc.png" alt="Java" title="Java" /></code>
             <code><img height="25" src="https://user-images.githubusercontent.com/25181517/192106070-46255bcf-65e6-4c6b-a296-bf8d0d8fb2a7.png" alt="C" title="C" /></code>
@@ -35,7 +37,7 @@ const AboutMe=()=>{
             <code><img height="25" src="https://user-images.githubusercontent.com/25181517/183898054-b3d693d4-dafb-4808-a509-bab54cf5de34.png" alt="Bootstrap" title="Bootstrap" /></code>
             <code><img height="25" src="https://user-images.githubusercontent.com/25181517/189716855-2c69ca7a-5149-4647-936d-780610911353.png" alt="Firebase" title="Firebase" /></code>
           </div>
-          <p>resume link here</p>
+          <a href='https://docs.google.com/document/d/1rEJArSEx_BfIzpfcQiIfO-THYSL2T9Uhcm1lBM5Wfvg/edit?usp=share_link'>resume link here</a>
         </div>
       </div>
   )
