@@ -5,17 +5,15 @@ const Header=()=>{
   return(
     <div className='header'>
       <img src='https://www.freeiconspng.com/thumbs/real-clouds-png/real-clouds-png-9.png'/>
-      <div id="menuToggle">
-        <input type="checkbox" />
-        {/* a span for each layer of hamburbger */}
-        <span></span>
-        <span></span>
-        <span></span>
-        <ul id="menu">
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+      <input type="checkbox" id="active" />
+      <label for="active" class="menu-btn"><span></span></label>
+      <label for="active" class="close"></label>
+      <div class="wrapper">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
     </div>

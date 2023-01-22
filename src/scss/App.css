@@ -42,11 +42,24 @@ body{
 
 .welcomeContainer{
   display: flex;
-  align-self: flex-start;
+  align-self: center;
   flex-direction: column;
   padding: 16px;
   width: 80%;
-  background-color: rgba(219, 239, 255, 0.4);
+  /* background-color: rgba(219, 239, 255, 0.4); */
   border-radius: 2px;
-  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  /* box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px; */
+}
+
+.welcomeContainer p{
+  align-self: flex-start;
+  padding-left: 24px;
+}
+.welcomeContainer h1{
+  align-self: flex-start;
+  padding-left: 24px;
+}
+.welcomeContainer h2{
+  align-self: flex-start;
+  padding-left: 24px;
 }
