@@ -26,7 +26,7 @@
 body{
   font-family: 'Nanum Myeongjo', serif;
   background: rgb(169,231,255);
-  background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 22%, rgba(255,255,255,1) 30%, rgba(92,190,253,1) 38%, rgba(169,231,255,1) 100%);
+  background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 22%, rgba(255,255,255,1) 29.5%, rgba(255,255,255,1) 57.5%, rgba(118,204,253,1) 59%, rgba(143,217,254,1) 79%, rgba(169,231,255,1) 100%);
   color: var(--light);
 }
 
@@ -96,14 +96,14 @@ body{
 @keyframes animate {
   0%{
     opacity: 0;
-    transform: scale(1)
+    transform: scale(.8)
   }
   25%, 75%{
     opacity: 1;
   }
   100%{
     opacity: 0;
-    transform: scale(3)
+    transform: scale(2.8)
   }
 }
 
