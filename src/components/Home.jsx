@@ -10,9 +10,9 @@ const Home=()=>{
       <div className='banner'>
       <div id='welcome'>
         <div className='welcomeContainer'>
-          <h2>Hey! My name's</h2>
+          <h2>Hey! I'm</h2>
           <h1 id='text'>Efrain Encarnacion</h1>
-          <h1>I'm a Full-Stack Developer from Orlando!</h1>
+          <h1>A Full-Stack Developer from Orlando!</h1>
         </div>
       </div>
         <div className='clouds'>
