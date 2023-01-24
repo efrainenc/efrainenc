@@ -1,6 +1,7 @@
 <img align="center" src="https://visitor-badge.glitch.me/badge?page_id=page.id&left_color=black&right_color=blue" alt="efrainenc"/>
 <h2 align='center'>Hi! I'm Efrain!</h2>
 
+<p> I'm a Software Engineer from Orlando!</p>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=efrainenc&show_icons=true&theme=dark" alt="efrainenc" /></p>
 
 <p align="left">Connect with me:</p>
