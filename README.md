@@ -4,7 +4,7 @@
 <p align="center"> I'm a Software Engineer from Orlando!</p>
 
 <p>👨‍💻 I'm currently working on: Portfolio📁</p>
-<p>📖 I'm currently learning: Django, SQL, Firebase, Rust</p>
+<p>📖 I'm currently learning: Django, Python 🐍</p>
 
 ### Tech Stack
 
