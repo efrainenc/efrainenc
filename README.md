@@ -1,10 +1,10 @@
 <img align="center" src="https://visitor-badge.glitch.me/badge?page_id=page.id&left_color=black&right_color=blue" alt="efrainenc"/>
-<h2 align='center'>Hi! I'm Efrain!</h2>
+<h1 align='center'>Hi! I'm Efrain!</h1>
 
 <p align="center"> I'm a Software Engineer from Orlando!</p>
 
-<p>I'm currently working on👨‍💻: Portfolio📁</p>
-<p>I'm currently learning📖: Django, SQL, Firebase, Rust</p>
+<p>👨‍💻 I'm currently working on: Portfolio📁</p>
+<p>📖 I'm currently learning: Django, SQL, Firebase, Rust</p>
 
 ## Tech Stack
 
