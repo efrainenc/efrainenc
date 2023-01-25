@@ -1,4 +1,3 @@
-<img align="center" src="https://visitor-badge.glitch.me/badge?page_id=page.id&left_color=black&right_color=blue" alt="efrainenc"/>
 <h1 align='center'>Hi! I'm Efrain!</h1>
 
 <p align="center"> I'm a Software Engineer from Orlando!</p>
