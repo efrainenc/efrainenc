@@ -2,7 +2,7 @@
 
 <p align="center"> I'm a Software Engineer from Orlando!</p>
 
-<p>👨‍💻 I'm currently working on: My Portfolio site📁</p>
+<p>👨‍💻 I'm currently working on: Capstone & My Portfolio site📁</p>
 <p>📖 I'm currently learning: SQL, Django, Python 🐍</p>
 
 ### Tech Stack
