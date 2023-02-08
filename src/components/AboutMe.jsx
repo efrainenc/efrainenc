@@ -7,8 +7,8 @@ const AboutMe=()=>{
         <div className='aboutMeContainer'>
           <h2>About Me</h2>
           <p>I'm an experienced Full-stack developer with a strong background in customer service and a proven ability to deliver high-quality, innovative web applications. 
-            Skilled in various programming languages including JavaScript, Python, and Java, as well as popular technologies such as React, Angular, Node.js, and Express. 
-            Strong understanding of database management, including MySQL, MongoDB, and Firebase. Adept at troubleshooting and resolving technical issues, and able to work effectively in 
+            Skilled in various programming languages including JavaScript, Python, and Java, as well as popular technologies such as React, Django, Angular, Node.js, and Express. 
+            Strong understanding of database management, including PostgreSQL, MongoDB, and Firebase. Adept at troubleshooting and resolving technical issues, and able to work effectively in 
             a team environment. A dedicated professional with a strong ability to understand and meet customer needs, resulting in the successful delivery of projects.</p>
           <div align="center">
             <code><img height="48" src="https://user-images.githubusercontent.com/25181517/117201156-9a724800-adec-11eb-9a9d-3cd0f67da4bc.png" alt="Java" title="Java" /></code>
