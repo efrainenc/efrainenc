@@ -16,3 +16,7 @@
   flex-direction: column;
   align-items: center;
 }
+
+.mainProjects img{
+  width: 32%;
+}

@@ -6,7 +6,7 @@ import '../scss/App.css'
 
 const Home=()=>{
   return(
-    <div>
+    <div className='home'>
       <div className='banner'>
       <div id='welcome'>
         <div className='welcomeContainer'>
