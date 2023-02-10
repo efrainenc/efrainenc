@@ -38,3 +38,8 @@
   border: 1px var(--dark) solid;
   align-self: center;
 }
+
+.aboutMe p{
+  justify-content: center;
+  width: 50%;
+}
