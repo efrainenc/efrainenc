@@ -1,6 +1,6 @@
 .projects a{
   text-decoration: none;
-  color: white;
+  color: var(--blue1);
 }
 
 .projects{
