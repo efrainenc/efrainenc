@@ -14,7 +14,9 @@
 .aboutMeContainer{
   display: flex;
   align-self: center;
+  justify-content: space-between;
   flex-direction: column;
+  row-gap: 5%;
   padding: 16px;
   width: 80%;
   /* background-color: rgba(219, 239, 255, 0.4); */
