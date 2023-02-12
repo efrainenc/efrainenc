@@ -4,7 +4,7 @@ import '../scss/Projects.css'
 const Projects=()=>{
   return(
     <div className='projects'>
-      <h2>Projects</h2>
+      <h2>Projects W.I.P.</h2>
       <div className='mainProjects'>
         <div className='projectCard'>
           <img className='TLimg' src='https://i.gyazo.com/a58e1fdb0a1a097b63abbab19b7741cd.jpg' />
