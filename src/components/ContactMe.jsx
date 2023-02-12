@@ -18,7 +18,7 @@ const ContactMe=()=>{
       <p>
         <a href="https://github.com/efrainenc" target="blank">
           <img align="center" 
-                src="https://banner2.cleanpng.com/20180824/jtl/kisspng-computer-icons-logo-portable-network-graphics-clip-icons-for-free-iconza-circle-social-5b7fe46b0bac53.1999041115351082030478.jpg" 
+                src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
                 alt="GitHub" 
                 height="30" 
                 width="40" />
