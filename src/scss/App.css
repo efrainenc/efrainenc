@@ -26,7 +26,7 @@
 body{
   font-family: 'Nanum Myeongjo', serif;
   background: rgb(169,231,255);
-  background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 22%, rgba(255,255,255,1) 29.5%, rgba(255,255,255,1) 58%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 22%, rgba(255,255,255,1) 29.5%,rgba(255,255,255,1) 100%);
   color: var(--light);
 }
 
@@ -39,6 +39,7 @@ body{
   flex-direction: column;
 }
 
+/* Welcome */
 #welcome{
   display: flex;
   height: 80vh;
@@ -53,9 +54,7 @@ body{
   flex-direction: column;
   padding: 16px;
   width: 80%;
-  /* background-color: rgba(219, 239, 255, 0.4); */
   border-radius: 2px;
-  /* box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px; */
 }
 
 .welcomeContainer h1{
@@ -65,6 +64,7 @@ body{
   align-self: center;
 }
 
+/* Banner */
 .banner{
   position: relative;
   width: 100vw;
@@ -98,6 +98,8 @@ body{
   animation: animate calc(3s * var(--i)) linear infinite;
 }
 
+
+/* Cloud Animation */
 @keyframes animate {
   0%{
     opacity: 0;
@@ -112,6 +114,8 @@ body{
   }
 }
 
+
+/* Media Query */
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
