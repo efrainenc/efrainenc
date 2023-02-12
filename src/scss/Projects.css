@@ -29,7 +29,6 @@
   align-items: center;
   margin: 16px;
   width: 40%;
-  height: 400px;
   border-radius: 10px;
   overflow: hidden;
   background-color: var(--light);
@@ -39,5 +38,8 @@
 
 .projectCard:hover{
   scale: 1.05;
+}
+p{
+  color: var(--blue1)
 }
 
