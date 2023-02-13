@@ -79,9 +79,9 @@ const Projects=()=>{
         <div className='projectCard'>
         <img className='SSimg' src='https://camo.githubusercontent.com/19afd36991f68237a6c4bde3b927b9fa6298d1bb5e920e3dd444fadc7b15753b/68747470733a2f2f692e6779617a6f2e636f6d2f63386333393038613036303031383938663263626362316535623338656431332e6a7067' />
           <div className='hapihour'>
-            <h2> </h2>
+            <h2>Simon Says</h2>
             <p>
-              Simon Says! Created with JS, HTML, and CSS, This was the very first game that I created to start my journey as a software developer! 
+              A classic Windows themed Simon Says game! Created with JS, HTML, and CSS, This was the very first game that I created to start my journey as a software developer! 
             </p>
             <div>
               <a target="_blank" href='https://efrainenc.github.io/Project-1-Game/'>Demo</a>

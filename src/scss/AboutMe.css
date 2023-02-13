@@ -28,7 +28,6 @@
 .aboutContent{
   display: flex;
   flex-direction: column;
-
   max-width: 60%;
 }
 
@@ -49,12 +48,30 @@
 
 .aboutMe p{
   align-self: center;
-  font-size: 16px;
-  width: 50%;
+  font-size: 1.4vw;
+  width: 80%;
   color: var(--blue1)
 }
 
 code {
   margin: 8px;
   flex-wrap: wrap;
+}
+
+
+/* Media Query */
+@media screen 
+  and (max-device-width: 1000px) 
+  and (-webkit-min-device-pixel-ratio: 1){ 
+    .aboutMeContainer{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    .aboutMe p{
+      align-self: center;
+      font-size: 2.4vw;
+      width: 100%;
+      color: var(--blue1)
+    }
 }
