@@ -1,6 +1,7 @@
 .projects a{
-  text-decoration: none;
-  color: var(--blue1);
+  /* text-decoration: none; */
+  color: var(--light);
+  margin: 12px;
 }
 
 .projects{
@@ -33,7 +34,7 @@
   min-width: 420px;
   border-radius: 10px;
   overflow: hidden;
-  background-color: var(--light);
+  background-color: var(--night);
   transition: 0.3s;
   filter: drop-shadow(-1px 13px 16px rgba(0, 0, 0, 0.3));
 }
@@ -41,13 +42,36 @@
 .projectCard:hover{
   scale: 1.05;
 }
-p{
-  color: var(--blue1);
+.projects p{
+  color: var(--light);
   padding: 16px;
+  font-size: .8vw;
 }
 
 .projIcons{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.sectionTitle{
+  color: var(--blue1)
+}
+
+.travelogue, .fotobook, .hapihour{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  opacity: 0;
+  transition: 0.25s;
+  height: 100%;
+}
+.travelogue:hover, 
+.fotobook:hover, 
+.hapihour:hover{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 1;
 }

@@ -39,7 +39,9 @@
 
 .aboutMe p{
   align-self: center;
+  font-size: 12px;
   width: 50%;
+  color: var(--blue1)
 }
 
 code {
