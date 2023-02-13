@@ -1,0 +1,27 @@
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(252, 252, 252, 0.4);
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  padding: 6px
+}
+
+#resume{
+  text-decoration: none;
+  color: var(--dark);
+  width: 6rem;
+  border: 1px var(--dark) solid;
+  padding: 4px;
+  align-self: center;
+  transition: 1s;
+}
+
+#resume:hover{
+  scale: 1.06;
+  color: var(--blue1);
+  border: 1px var(--blue1) solid;
+  align-self: center;
+}

@@ -5,7 +5,10 @@ const AboutMe=()=>{
   return(
       <div className='aboutMe'>
         <div className='aboutMeContainer'>
-          <h1>About Me</h1>
+          <div>
+            <h1>About Me</h1>
+            <hr></hr>
+          </div>
           <div className='aboutContent'>
             <p>
               I'm an experienced Full-stack developer with a strong background in customer service and a proven ability to deliver high-quality, innovative web applications. 
@@ -37,7 +40,6 @@ const AboutMe=()=>{
               <code><img height="48" src="https://user-images.githubusercontent.com/25181517/183898054-b3d693d4-dafb-4808-a509-bab54cf5de34.png" alt="Bootstrap" title="Bootstrap" /></code>
               <code><img height="48" src="https://user-images.githubusercontent.com/25181517/189716855-2c69ca7a-5149-4647-936d-780610911353.png" alt="Firebase" title="Firebase" /></code>
             </div>
-            <a id='resume' href='https://docs.google.com/document/d/1rEJArSEx_BfIzpfcQiIfO-THYSL2T9Uhcm1lBM5Wfvg/edit?usp=share_link'>My Resume</a>
           </div>
           
         </div>

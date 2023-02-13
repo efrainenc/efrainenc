@@ -31,21 +31,6 @@
   max-width: 60%;
 }
 
-#resume{
-  width: 6rem;
-  border: 1px var(--blue1) solid;
-  padding: 4px;
-  align-self: center;
-  transition: 1s;
-}
-
-#resume:hover{
-  scale: 1.06;
-  color: var(--dark);
-  border: 1px var(--dark) solid;
-  align-self: center;
-}
-
 .aboutMe p{
   align-self: center;
   font-size: 1.4vw;
