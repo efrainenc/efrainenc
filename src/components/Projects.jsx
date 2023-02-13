@@ -4,7 +4,7 @@ import '../scss/Projects.css'
 const Projects=()=>{
   return(
     <div className='projects'>
-      <h2 className='sectionTitle'>Projects W.I.P.</h2>
+      <h2 className='sectionTitle'>Projects</h2>
       <div className='mainProjects'>
         <div className='projectCard'>
           <img className='TLimg' src='https://i.gyazo.com/a58e1fdb0a1a097b63abbab19b7741cd.jpg' />
@@ -19,7 +19,7 @@ const Projects=()=>{
             </p>
             <div>
               <a href='https://travelogue.herokuapp.com'>Demo</a>
-              <a href='https://travelogue.herokuapp.com'>Repo</a>
+              <a href='https://github.com/efrainenc/travelogue'>Repo</a>
             </div>
             <div className='projIcons'>
               <code><img height="32" src="data:image/png;base64,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" alt="Django" title="Django" /></code>
@@ -31,9 +31,10 @@ const Projects=()=>{
           </div>
         </div>
         <div className='projectCard'>
-          <img className='FBimg' src='https://i.gyazo.com/13e2920de1b35e6b31e236490f445bdc.png' />
+          {/* <img className='FBimg' src='https://i.gyazo.com/13e2920de1b35e6b31e236490f445bdc.png' /> */}
+          <img className='FBimg' src='https://i.gyazo.com/9bd5012fc0a9df00664a730669fd3010.png' />  
           <div className='fotobook'>
-            <h2>FotoBook (Dark)</h2>
+            <h2>FotoBook</h2>
             <p>
               FotoBook is a Full stack app collaboration that recreates the Instagram user experience 
               Where I collaborated to utilize a MERN stack (MongoDB, Express, React.js, Node.js) to build a full stack application in 3 days. 
@@ -43,7 +44,7 @@ const Projects=()=>{
             </p>
             <div>
               <a href='https://fotobook-dark.netlify.app/'>Demo</a>
-              <a href='https://fotobook-dark.netlify.app/'>Repo</a>
+              <a href='https://github.com/efrainenc/project-3-fe/tree/efrain_dev'>Repo</a>
             </div>
             <div className='projIcons'>
               <code><img height="32" src="https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png" alt="mongoDB" title="mongoDB" /></code>
@@ -71,7 +72,7 @@ const Projects=()=>{
             </p>
             <div>
               <a href='https://HAPI-HOUR.netlify.app/'>Demo</a>
-              <a href='https://HAPI-HOUR.netlify.app/'>Repo</a>
+              <a href='https://github.com/cbowman422/project-2'>Repo</a>
             </div>
             <div className='projIcons'>
               <code><img height="32" src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="React" title="React" /></code>

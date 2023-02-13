@@ -2,11 +2,14 @@
   text-decoration: none;
   color: var(--blue1);
 }
+.aboutMe h1{
+  font-size: 3vw;
+}
 
 .aboutMe{
   display: flex;
   color: var(--blue1);
-  height: 100vh;
+  height: 80vh;
   justify-content: center;
   background: rgb(255, 255, 255);
 }
@@ -14,12 +17,19 @@
 .aboutMeContainer{
   display: flex;
   align-self: center;
-  row-gap: 32px;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
+  column-gap: 16px;
+  flex-direction: row;
   padding: 16px;
-  width: 80%;
+  width: 100%;
   border-radius: 2px;
+}
+
+.aboutContent{
+  display: flex;
+  flex-direction: column;
+
+  max-width: 60%;
 }
 
 #resume{
@@ -39,7 +49,7 @@
 
 .aboutMe p{
   align-self: center;
-  font-size: 12px;
+  font-size: 16px;
   width: 50%;
   color: var(--blue1)
 }
