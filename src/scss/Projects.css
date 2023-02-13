@@ -46,3 +46,8 @@ p{
   padding: 16px;
 }
 
+.projIcons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
