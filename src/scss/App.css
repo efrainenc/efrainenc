@@ -117,7 +117,7 @@ body{
 
 /* Media Query */
 @media screen 
-  and (max-device-width: 600px){
+  and (max-device-width: 820px){
     .banner{
       height: 72vh;
     }
@@ -128,7 +128,7 @@ body{
       scale: .72;
     }
     body{
-      background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 20%, rgba(255,255,255,1) 22.8%,rgba(255,255,255,1) 100%);
+      background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 20%, rgba(255,255,255,1) 22%,rgba(255,255,255,1) 100%);
     }
 }
 
