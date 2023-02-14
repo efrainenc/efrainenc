@@ -117,7 +117,7 @@ hr{
 
 /* Media Query */
 @media screen 
-  and (max-device-width: 1000px){ 
+  and (max-device-width: 1500px){ 
     .projects{
       display: flex;
       align-items: center;

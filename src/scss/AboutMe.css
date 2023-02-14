@@ -66,19 +66,24 @@ hr{
 
 /* Media Query */
 @media screen 
-  and (max-device-width: 1000px){ 
+  and (max-device-width: 1250px){ 
+    .aboutMe p{
+      align-self: center;
+      font-size: 2.4vw;
+      width: 100%;
+      color: var(--blue1)
+    }
+}
+
+/* Media Query */
+@media screen 
+  and (max-device-width: 1500px){ 
     .aboutMeContainer, .skills{
       display: flex;
       align-items: center;
       flex-direction: column;
       justify-content: start;
       max-height: 50vh;
-    }
-    .aboutMe p{
-      align-self: center;
-      font-size: 2.4vw;
-      width: 100%;
-      color: var(--blue1)
     }
     .aboutMe{
       height: 42vh;
