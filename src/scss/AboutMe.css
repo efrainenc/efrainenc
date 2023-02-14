@@ -2,33 +2,53 @@
   text-decoration: none;
   color: var(--blue1);
 }
-.aboutMe h1{
+.aboutMe h1, .skills h1{
+  color: var(--blue1);
   font-size: 3vw;
 }
-
+h2{
+  width: fit-content;
+}
 .aboutMe{
   display: flex;
   color: var(--blue1);
-  height: 80vh;
+  background-color: white;
+  height: 72vh;
   justify-content: center;
-  background: rgb(255, 255, 255);
+  margin-top: 100px;
 }
 
-.aboutMeContainer{
+.aboutMeContainer, .skills{
   display: flex;
-  align-self: center;
+  align-items: start;
   justify-content: space-between;
   column-gap: 16px;
   flex-direction: row;
   padding: 16px;
   width: 100%;
   border-radius: 2px;
+  color: var(--blue1);
+}
+.skills{
+  height: 60vh;
 }
 
-.aboutContent{
+.aboutContent, .skillsContainer{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-items: start;
   max-width: 60%;
+}
+
+.skillCategory{
+  max-width: 90%;
+}
+
+hr{
+  height: 1px;
+  background-color: var(--blue1);
+  border: none;
 }
 
 .aboutMe p{
@@ -38,20 +58,20 @@
   color: var(--blue1)
 }
 
-code {
-  margin: 8px;
+.skillList{
+  display: flex;
   flex-wrap: wrap;
 }
 
 
 /* Media Query */
 @media screen 
-  and (max-device-width: 1000px) 
-  and (-webkit-min-device-pixel-ratio: 1){ 
-    .aboutMeContainer{
+  and (max-device-width: 1000px){ 
+    .aboutMeContainer, .skills{
       display: flex;
       align-items: center;
       flex-direction: column;
+      justify-content: start;
     }
     .aboutMe p{
       align-self: center;

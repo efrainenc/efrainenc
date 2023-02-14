@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutMe from './AboutMe'
+import Skills from './Skills'
 import ContactMe from './ContactMe'
 import Projects from './Projects'
 import '../scss/App.css'
@@ -29,6 +30,7 @@ const Home=()=>{
         </div>
       </div>
       <AboutMe />
+      <Skills />
       <Projects />
       <ContactMe />
     </div>

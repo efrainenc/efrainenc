@@ -3,8 +3,19 @@
   color: var(--light);
   margin: 12px;
 }
+.projects h1{
+  color: var(--blue1);
+  font-size: 3vw;
+}
+hr{
+  height: 1px;
+  background-color: var(--blue1);
+  border: none;
+}
 
 .projects{
+  display: flex;
+  padding: 16px;
   height: 100vh;
 }
 
@@ -42,27 +53,37 @@
 .projectCard:hover{
   scale: 1.05;
 }
+.projectCard h2{
+  margin: 8px 0 0 8px;
+  align-self: start;
+}
+
 .projects p{
   color: var(--light);
-  padding: 16px;
+  padding: 4px 8px;
   font-size: .8vw;
+  margin: 0;
+  align-self: start;
 }
 
 .projIcons{
   display: flex;
+  align-self: start;
   flex-direction: row;
   flex-wrap: wrap;
+  scale: .8;
+  flex-grow: 1;
 }
 
 .sectionTitle{
-  color: var(--blue1)
+  color: var(--blue1);
+  width: fit-content;
+  margin: 0;
 }
 
 .travelogue, .fotobook, .hapihour{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
   position: absolute;
   opacity: 0;
   transition: 0.25s;
@@ -74,4 +95,32 @@
   position: absolute;
   background-color: rgba(0, 0, 0, 0.4);
   opacity: 1;
+}
+
+.projLinks{
+  padding-bottom: 8px;
+}
+
+
+/* Media Query */
+@media screen 
+  and (max-device-width: 1300px){ 
+    .projectCard p{
+      align-self: center;
+      font-size: 12px;
+      width: 100%;
+    }
+    .projIcons{
+      scale: .5;
+    }
+}
+
+/* Media Query */
+@media screen 
+  and (max-device-width: 1000px){ 
+    .projects{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
 }

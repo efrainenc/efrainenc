@@ -25,13 +25,13 @@
 
 body{
   font-family: 'Nanum Myeongjo', serif;
-  background: rgb(169,231,255);
-  background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 22%, rgba(255,255,255,1) 29.5%,rgba(255,255,255,1) 100%);
+  background: rgba(45,166,253,1);
+  background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 20%, rgba(255,255,255,1) 23%,rgba(255,255,255,1) 100%);
   color: var(--light);
 }
 
 .App {
-  text-align: center;
+  width: 100%;
 }
 
 .home{
@@ -55,6 +55,7 @@ body{
   padding: 16px;
   width: 80%;
   border-radius: 2px;
+  text-align: center;
 }
 
 .welcomeContainer h1{
@@ -117,9 +118,24 @@ body{
 
 /* Media Query */
 @media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1){ 
+  and (max-device-width: 600px){ 
+    body{
+      background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 20%, rgba(255,255,255,1) 22.8%,rgba(255,255,255,1) 100%);
+    }
+}
 
+@media screen 
+  and (max-device-width: 360px)
+  and (max-device-height: 740px){ 
+    body{
+      background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 19%, rgba(255,255,255,1) 21.5%,rgba(255,255,255,1) 100%);
+    }
+}
 
+@media screen 
+  and (min-device-width: 540px)
+  and (max-device-height: 740px){ 
+    body{
+      background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 19%, rgba(255,255,255,1) 22%,rgba(255,255,255,1) 100%);
+    }
 }
