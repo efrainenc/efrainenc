@@ -74,7 +74,6 @@ body{
   background-position: bottom;
   display: flex;
   justify-content: start;
-  align-items: center;
 }
 .banner #text{
   position: relative;
@@ -118,7 +117,16 @@ body{
 
 /* Media Query */
 @media screen 
-  and (max-device-width: 600px){ 
+  and (max-device-width: 600px){
+    .banner{
+      height: 72vh;
+    }
+    #welcome{
+      height: 50vh;
+    }
+    .welcomeContainer h1, .welcomeContainer h2{
+      scale: .72;
+    }
     body{
       background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 20%, rgba(255,255,255,1) 22.8%,rgba(255,255,255,1) 100%);
     }
