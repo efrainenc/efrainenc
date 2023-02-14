@@ -42,7 +42,7 @@ hr{
   align-items: center;
   margin: 16px;
   width: 36%;
-  min-width: 420px;
+  min-width: 360px;
   border-radius: 10px;
   overflow: hidden;
   background-color: var(--night);
@@ -51,7 +51,7 @@ hr{
 }
 
 .projectCard:hover{
-  scale: 1.05;
+  scale: 1.04;
 }
 .projectCard h2{
   margin: 8px 0 0 8px;

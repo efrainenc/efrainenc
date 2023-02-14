@@ -26,8 +26,8 @@ const Projects=()=>{
               <code><img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white" alt="Django" title="Django" /></code>
               <code><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" title="Python" /></code>
               <code><img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" title="PostgreSQL" /></code>
-              <code><img height='36' src="https://www.stonebranch.com/integration-hub/media/d5/72/11/1642677735/Oauth%202.0_Vendor_Product_Logo.svg" alt="OAuth2" title="OAuth2" /></code>
               <code><img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" title="Bootstrap" /></code>
+              <code><img height='36' src="https://www.stonebranch.com/integration-hub/media/d5/72/11/1642677735/Oauth%202.0_Vendor_Product_Logo.svg" alt="OAuth2" title="OAuth2" /></code>
             </div>
             <div className='projLinks'>
               <a target="_blank" href='https://travelogue.herokuapp.com'>Demo</a>
@@ -50,9 +50,9 @@ const Projects=()=>{
               <code><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" title="React" /></code>
               <code><img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" title="Node.js" /></code>
               <code><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" title="JavaScript" /></code>
-              <code><img height='36' src="https://user-images.githubusercontent.com/25181517/192107858-fe19f043-c502-4009-8c47-476fc89718ad.png" alt="REST" title="REST" /></code>
               <code><img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" title="HTML" /></code>
               <code><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" title="CSS" /></code>
+              <code><img height='36' src="https://user-images.githubusercontent.com/25181517/192107858-fe19f043-c502-4009-8c47-476fc89718ad.png" alt="REST" title="REST" /></code>
             </div>
             <div className='projLinks'>
               <a target="_blank" href='https://fotobook-dark.netlify.app/'>Demo</a>
@@ -73,9 +73,9 @@ const Projects=()=>{
             <div className='projIcons'>
               <code><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" title="React" /></code>
               <code><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" title="JavaScript" /></code>
-              <code><img height='36' src="https://user-images.githubusercontent.com/25181517/192107858-fe19f043-c502-4009-8c47-476fc89718ad.png" alt="REST" title="REST" /></code>
               <code><img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" title="HTML" /></code>
               <code><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" title="CSS" /></code>
+              <code><img height='36' src="https://user-images.githubusercontent.com/25181517/192107858-fe19f043-c502-4009-8c47-476fc89718ad.png" alt="REST" title="REST" /></code>
             </div>
             <div className='projLinks'>
               <a target="_blank" href='https://HAPI-HOUR.netlify.app/'>Demo</a>
