@@ -4,12 +4,12 @@
   margin: 12px;
 }
 .projects h1{
-  color: var(--blue1);
+  color: var(--night);
   font-size: 3vw;
 }
 hr{
   height: 1px;
-  background-color: var(--blue1);
+  background-color: var(--night);
   border: none;
 }
 
