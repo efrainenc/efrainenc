@@ -113,6 +113,9 @@ hr{
     .projIcons{
       scale: .5;
     }
+    .projects h1{
+      font-size: 18px;
+    }
 }
 
 /* Media Query */

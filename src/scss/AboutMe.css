@@ -92,6 +92,15 @@ hr{
 
 @media screen 
   and (max-device-width: 600px){
+    .aboutMe h1, .skills h1{
+      font-size: 18px;
+    }
+    .skills h2{
+      font-size: 16px;
+    }
+    .aboutMe p{
+      font-size: 12px;
+    }
     .projects{
       margin-top: 128px;
     }
