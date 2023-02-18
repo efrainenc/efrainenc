@@ -6,7 +6,8 @@
   color: var(--night);
   font-size: 3vw;
 }
-h2{
+.skills h2{
+  font-size: 1.5vw;
   width: fit-content;
 }
 .aboutMe{

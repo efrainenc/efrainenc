@@ -67,12 +67,11 @@ hr{
   align-self: start;
 }
 
-.projIcons{
+.projTech{
   display: flex;
   align-self: start;
   flex-direction: row;
   flex-wrap: wrap;
-  scale: .8;
   flex-grow: 1;
 }
 
@@ -110,9 +109,6 @@ hr{
       align-self: center;
       font-size: 12px;
       width: 100%;
-    }
-    .projIcons{
-      scale: .5;
     }
     .projects h1{
       font-size: 18px;

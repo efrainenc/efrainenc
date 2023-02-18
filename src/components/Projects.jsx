@@ -20,16 +20,12 @@ const Projects=()=>{
             <p>
               A Full stack travel app that helps you plan, track and log your trips w/OAuth2.0 for Google Authentication
             </p>            
-            <div className='projIcons'>
-              <code><img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white" alt="Django" title="Django" /></code>
-              <code><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" title="Python" /></code>
-              <code><img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" title="PostgreSQL" /></code>
-              <code><img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" title="Bootstrap" /></code>
-              <code><img height='36' src="https://www.stonebranch.com/integration-hub/media/d5/72/11/1642677735/Oauth%202.0_Vendor_Product_Logo.svg" alt="OAuth2" title="OAuth2" /></code>
-            </div>
+            <p className='projTech'>
+              Tech: Django, Python, OAuth2.0, PostgreSQL, Bootstrap
+            </p>
             <div className='projLinks'>
-              <a target="_blank" href='https://travelogue.herokuapp.com'>Demo</a>
-              <a target="_blank" href='https://github.com/efrainenc/travelogue'>Repo</a>
+              <a target="_blank" href='https://travelogue.herokuapp.com'>[Demo]</a>
+              <a target="_blank" href='https://github.com/efrainenc/travelogue'>[GitHub]</a>
             </div>
           </div>
         </div>
@@ -42,20 +38,13 @@ const Projects=()=>{
               A Full stack app collaboration that recreates the Instagram user experience. Utilizing MERN stack and JWT Authentication. 
               Complete with full CRUD operations hitting all RESTful API calls.
             </p>
-            <div className='projIcons'>
-              <code><img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongoDB" title="mongoDB" /></code>
-              <code><img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="Express" title="Express" /></code>
-              <code><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" title="React" /></code>
-              <code><img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" title="Node.js" /></code>
-              <code><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" title="JavaScript" /></code>
-              <code><img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" title="HTML" /></code>
-              <code><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" title="CSS" /></code>
-              <code><img height='36' src="https://user-images.githubusercontent.com/25181517/192107858-fe19f043-c502-4009-8c47-476fc89718ad.png" alt="REST" title="REST" /></code>
-            </div>
+            <p className='projTech'>
+              Tech: MERN Stack, JavaScript, HTML, CSS
+            </p>
             <div className='projLinks'>
               {/* <a target="_blank" href='https://fotobook-dark.netlify.app/'>Demo</a> */}
-              <a target="_blank" href='https://foto-book.netlify.app/'>Demo</a>
-              <a target="_blank" href='https://github.com/efrainenc/project-3-fe/tree/efrain_dev'>Repo</a>
+              <a target="_blank" href='https://foto-book.netlify.app/'>[Demo]</a>
+              <a target="_blank" href='https://github.com/efrainenc/project-3-fe/tree/efrain_dev'>[GitHub]</a>
             </div>
           </div>
         </div>
@@ -66,16 +55,12 @@ const Projects=()=>{
             <p>
               A React app collaboration that utilizes API calls to provide the user with any cocktail of various categories.
             </p>
-            <div className='projIcons'>
-              <code><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" title="React" /></code>
-              <code><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" title="JavaScript" /></code>
-              <code><img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" title="HTML" /></code>
-              <code><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" title="CSS" /></code>
-              <code><img height='36' src="https://user-images.githubusercontent.com/25181517/192107858-fe19f043-c502-4009-8c47-476fc89718ad.png" alt="REST" title="REST" /></code>
-            </div>
+            <p className='projTech'>
+              Tech: React, JavaScript, HTML, CSS
+            </p>
             <div className='projLinks'>
-              <a target="_blank" href='https://HAPI-HOUR.netlify.app/'>Demo</a>
-              <a target="_blank" href='https://github.com/cbowman422/project-2'>Repo</a>
+              <a target="_blank" href='https://HAPI-HOUR.netlify.app/'>[Demo]</a>
+              <a target="_blank" href='https://github.com/cbowman422/project-2'>[GitHub]</a>
             </div>
           </div>
         </div>
@@ -86,14 +71,12 @@ const Projects=()=>{
             <p>
               A classic Windows themed Simon Says game! Created with JS, HTML, and CSS, This was the very first game that I created to start my journey as a software developer! 
             </p>
-            <div className='projIcons'>
-              <code><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" title="JavaScript" /></code>
-              <code><img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" title="HTML" /></code>
-              <code><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" title="CSS" /></code>
-            </div>
+            <p className='projTech'>
+              Tech: JavaScript, HTML, CSS
+            </p>
             <div className='projLinks'>
-              <a target="_blank" href='https://efrainenc.github.io/Project-1-Game/'>Demo</a>
-              <a target="_blank" href='https://github.com/efrainenc/Project-1-Game'>Repo</a>
+              <a target="_blank" href='https://efrainenc.github.io/Project-1-Game/'>[Demo]</a>
+              <a target="_blank" href='https://github.com/efrainenc/Project-1-Game'>[GitHub]</a>
             </div>
           </div>
         </div>
