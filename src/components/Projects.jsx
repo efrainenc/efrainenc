@@ -18,9 +18,7 @@ const Projects=()=>{
           <div className='travelogue'>
             <h2>Travelogue</h2>
             <p>
-              A Full stack travel app for those who love to travel that helps you plan and log your trips. 
-              It utilizes Django + Bootstrap and Django AllAuth for OAuth2.0 Google Authentication and allow for the future implementation of Google API's.
-              It is developed with a robust and scalable backend system using Python, Django, and PostgreSQL.
+              A Full stack travel app that helps you plan, track and log your trips w/OAuth2.0 for Google Authentication
             </p>            
             <div className='projIcons'>
               <code><img src="https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white" alt="Django" title="Django" /></code>
@@ -41,8 +39,8 @@ const Projects=()=>{
           <div className='fotobook'>
             <h2>FotoBook</h2>
             <p>
-              A Full stack app collaboration that recreates the Instagram user experience. Utilizing MongoDB, Express, React.js, Node.js and JWT Authentication.
-              Complete with full CRUD operations hitting all RESTful API calls and a mobile-first approach, styled using Styled-Components and CSS3 with flexbox layouts.
+              A Full stack app collaboration that recreates the Instagram user experience. Utilizing MERN stack and JWT Authentication. 
+              Complete with full CRUD operations hitting all RESTful API calls.
             </p>
             <div className='projIcons'>
               <code><img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongoDB" title="mongoDB" /></code>
@@ -66,10 +64,7 @@ const Projects=()=>{
           <div className='hapihour'>
             <h2>HAPI HOUR</h2>
             <p>
-              HAPI HOUR is a React app that utilizes API calls to provide the user with any cocktail of various categories
-              Collaborated to deploy a live React app using Netlify to create a user-friendly and responsive layout for users.
-              Utilizes API calls to load all available cocktails by their ingredients and names.
-              Displays a high level understanding of React.js, JavaScript, HTML and CSS.
+              A React app collaboration that utilizes API calls to provide the user with any cocktail of various categories.
             </p>
             <div className='projIcons'>
               <code><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" title="React" /></code>

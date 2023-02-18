@@ -1,9 +1,9 @@
 .aboutMe a{
   text-decoration: none;
-  color: var(--blue1);
+  color: var(--night);
 }
 .aboutMe h1, .skills h1{
-  color: var(--blue1);
+  color: var(--night);
   font-size: 3vw;
 }
 h2{
@@ -11,7 +11,8 @@ h2{
 }
 .aboutMe{
   display: flex;
-  color: var(--blue1);
+  color: var(--night);
+  background-color: white;
   height: 72vh;
   justify-content: center;
   margin-top: 100px;
@@ -27,7 +28,7 @@ h2{
   padding: 16px;
   width: 100%;
   border-radius: 2px;
-  color: var(--blue1);
+  color: var(--night);
 }
 .skills{
   height: 60vh;
@@ -47,7 +48,7 @@ h2{
 
 hr{
   height: 1px;
-  background-color: var(--blue1);
+  background-color: var(--night);
   border: none;
 }
 
@@ -55,7 +56,7 @@ hr{
   align-self: center;
   font-size: 1.4vw;
   width: 80%;
-  color: var(--blue1)
+  color: var(--night)
 }
 
 .skillList{
@@ -96,6 +97,15 @@ hr{
 
 @media screen 
   and (max-device-width: 600px){
+    .aboutMe h1, .skills h1{
+      font-size: 18px;
+    }
+    .skills h2{
+      font-size: 16px;
+    }
+    .aboutMe p{
+      font-size: 12px;
+    }
     .projects{
       margin-top: 128px;
     }
