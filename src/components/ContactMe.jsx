@@ -3,10 +3,10 @@ import '../scss/ContactMe.css'
 
 const ContactMe=()=>{
   return (
-    <div className='contactMe'>
+    <section className='contactMe'>
       <h1>Contact Me</h1>
       <h2>Email: Efraine387@gmail.com</h2>
-    </div>
+    </section>
   )
 }
 

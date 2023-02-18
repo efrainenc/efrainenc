@@ -7,7 +7,7 @@ import '../scss/App.css'
 
 const Home=()=>{
   return(
-    <div className='home'>
+    <section className='home'>
       <div className='banner'>
       <div id='welcome'>
         <div className='welcomeContainer'>
@@ -33,7 +33,7 @@ const Home=()=>{
       <Skills />
       <Projects />
       <ContactMe />
-    </div>
+    </section>
   )
 }
 

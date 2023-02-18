@@ -3,7 +3,7 @@ import '../scss/Header.css'
 
 const Header=()=>{
   return(
-    <div className='header'>
+    <section className='header'>
       <img src='https://www.freeiconspng.com/thumbs/real-clouds-png/real-clouds-png-9.png'/>
       <input type="checkbox" id="active" />
       <label htmlFor="active" className="menu-btn"><span></span></label>
@@ -16,7 +16,7 @@ const Header=()=>{
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-    </div>
+    </section>
   )
 }
 

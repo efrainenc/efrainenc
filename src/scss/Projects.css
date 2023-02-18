@@ -17,6 +17,7 @@ hr{
   display: flex;
   padding: 16px;
   height: 100vh;
+  padding-bottom: 10%;
 }
 
 .HHimg{
