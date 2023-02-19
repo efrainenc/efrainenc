@@ -1,4 +1,4 @@
-.contactMe{
+#contactMe{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,6 +6,6 @@
   height: 50vh;
   color: var(--night);
 }
-.contactMe h2{
+#contactMe h2{
   font-size: 16px;
 }

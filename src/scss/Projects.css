@@ -1,9 +1,9 @@
-.projects a{
+#projects a{
   /* text-decoration: none; */
   color: var(--light);
   margin: 12px;
 }
-.projects h1{
+#projects h1{
   color: var(--night);
   font-size: 3vw;
 }
@@ -13,7 +13,7 @@ hr{
   border: none;
 }
 
-.projects{
+#projects{
   display: flex;
   padding: 16px;
   height: 100vh;
@@ -59,7 +59,7 @@ hr{
   align-self: start;
 }
 
-.projects p{
+#projects p{
   color: var(--light);
   padding: 4px 8px;
   font-size: .8vw;
@@ -110,7 +110,7 @@ hr{
       font-size: 12px;
       width: 100%;
     }
-    .projects h1{
+    #projects h1{
       font-size: 18px;
     }
 }
@@ -118,7 +118,7 @@ hr{
 /* Media Query */
 @media screen 
   and (max-device-width: 1500px){ 
-    .projects{
+    #projects{
       display: flex;
       align-items: center;
       flex-direction: column;

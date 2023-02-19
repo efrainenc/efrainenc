@@ -3,7 +3,7 @@ import '../scss/AboutMe.css'
 
 export const Skills = () => {
   return (
-    <section className='skills'>
+    <section id='skills'>
       <div>
         <h1>Skills</h1>
         <hr></hr>

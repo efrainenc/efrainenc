@@ -7,7 +7,7 @@ import '../scss/App.css'
 
 const Home=()=>{
   return(
-    <section className='home'>
+    <section id='home'>
       <div className='banner'>
       <div id='welcome'>
         <div className='welcomeContainer'>

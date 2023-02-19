@@ -3,7 +3,7 @@ import '../scss/AboutMe.css'
 
 const AboutMe=()=>{
   return(
-      <section className='aboutMe'>
+      <section id='aboutMe'>
         <div className='aboutMeContainer'>
           <div>
             <h1>About Me</h1>

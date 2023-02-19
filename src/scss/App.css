@@ -34,7 +34,7 @@ body{
   width: 100vw;
 }
 
-.home{
+#home{
   display: flex;
   flex-direction: column;
 }
