@@ -17,6 +17,7 @@
   padding: 4px;
   align-self: center;
   transition: 1s;
+  text-align: center;
 }
 
 #resume:hover{
