@@ -30,8 +30,8 @@ const Projects=()=>{
           </div>
         </div>
         <div className='projectCard'>
-          {/* <img className='FBimg' src='https://i.gyazo.com/13e2920de1b35e6b31e236490f445bdc.png' /> */}
-          <img className='FBimg' src='https://i.gyazo.com/9bd5012fc0a9df00664a730669fd3010.png' />  
+          <img className='FBimg' src='https://i.gyazo.com/13e2920de1b35e6b31e236490f445bdc.png' />
+          {/* <img className='FBimg' src='https://i.gyazo.com/9bd5012fc0a9df00664a730669fd3010.png' />   */}
           <div className='fotobook'>
             <h2>FotoBook</h2>
             <p>
@@ -42,8 +42,8 @@ const Projects=()=>{
               Tech: MERN Stack, JavaScript, HTML, CSS
             </p>
             <div className='projLinks'>
-              {/* <a target="_blank" href='https://fotobook-dark.netlify.app/'>Demo</a> */}
-              <a target="_blank" href='https://foto-book.netlify.app/'>[Demo]</a>
+              <a target="_blank" href='https://fotobook-dark.netlify.app/'>[Demo]</a>
+              {/* <a target="_blank" href='https://foto-book.netlify.app/'>[Demo]</a> */}
               <a target="_blank" href='https://github.com/efrainenc/project-3-fe/tree/efrain_dev'>[GitHub]</a>
             </div>
           </div>

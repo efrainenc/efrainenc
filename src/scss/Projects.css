@@ -43,7 +43,7 @@ hr{
   align-items: center;
   margin: 16px;
   width: 36%;
-  min-width: 360px;
+  min-width: 320px;
   border-radius: 10px;
   overflow: hidden;
   background-color: var(--night);
@@ -88,6 +88,7 @@ hr{
   opacity: 0;
   transition: 0.25s;
   height: 100%;
+  width: 100%;
 }
 .travelogue:hover, 
 .fotobook:hover, 
@@ -107,8 +108,11 @@ hr{
   and (max-device-width: 1300px){ 
     .projectCard p{
       align-self: center;
-      font-size: 12px;
+      font-size: 1vw;
       width: 100%;
+    }
+    #projects p{
+      font-size: 12px;
     }
     #projects h1{
       font-size: 18px;

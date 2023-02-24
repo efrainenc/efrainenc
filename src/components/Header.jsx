@@ -5,8 +5,8 @@ const Header=()=>{
   return(
     <section className='header'>
       <img src='https://www.freeiconspng.com/thumbs/real-clouds-png/real-clouds-png-9.png'/>
-      <input type="checkbox" id="active" />
-      <label htmlFor="active" className="menu-btn"><span></span></label>
+      {/* <input type="checkbox" id="active" /> */}
+      {/* <label htmlFor="active" className="menu-btn"><span></span></label> */}
       <label htmlFor="active" className="close"></label>
       <div className="wrapper">
         <ul>
