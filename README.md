@@ -1,9 +1,10 @@
 <h1 align='center'>Hi! I'm Efrain!</h1>
 
-<p align="center"> I'm a Software Engineer from Orlando!</p>
+<p align="center"> I'm a Software Engineer from Orlando! Currently moving to Denver✈️⛰️</p>
 
-<p>👨‍💻 I'm currently working on: My Portfolio site📁</p>
-<p>📖 I'm currently learning: SQL, Django, Python 🐍</p>
+<p> Will continue to work on projects once finished moving✈️📦</p>
+<p>👨‍💻 I'm currently working on: Maze Solver & My Portfolio site📁</p>
+<p>📖 I'm currently learning: C++, Python, Linux</p>
 
 ### Tech Stack
 
