@@ -121,6 +121,7 @@ hr{
 @media(max-device-width: 1500px){ 
     #projects{
       display: flex;
+      padding-top: 16%;
       align-items: center;
       flex-direction: column;
     }
