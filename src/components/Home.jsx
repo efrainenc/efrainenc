@@ -13,7 +13,7 @@ const Home=()=>{
         <div className='welcomeContainer'>
           <h2>Hey! I'm</h2>
           <h1 id='text'>Efrain Encarnacion</h1>
-          <h1>A Full-Stack Developer from Orlando!</h1>
+          <h1>A Full-Stack Developer from Denver!</h1>
         </div>
       </div>
         <div className='clouds'>
