@@ -93,7 +93,7 @@ hr{
 .projectInfo:hover{
   width: 100%;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
   opacity: 1;
 }
 
