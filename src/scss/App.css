@@ -22,11 +22,12 @@
 
 --i: 0;
 }
+
 body{
   font-family: 'Nanum Myeongjo', serif;
   background: rgba(45,166,253,1);
   background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 20%, rgba(255,255,255,1) 23%,rgba(255,255,255,1) 100%);
-  color: var(--light);
+  color: whitesmoke;
 }
 
 .App {
@@ -60,6 +61,7 @@ body{
 .welcomeContainer h1{
   align-self: center;
 }
+
 .welcomeContainer h2{
   align-self: center;
 }
@@ -74,12 +76,14 @@ body{
   display: flex;
   justify-content: start;
 }
+
 .banner #text{
   position: relative;
   font-size: 4em;
   color: #fff;
 
 }
+
 .banner .clouds{
   position: absolute;
   top: 0;
@@ -89,6 +93,7 @@ body{
   overflow: hidden;
   pointer-events: none;
 }
+
 .banner .clouds img{
   position: absolute;
   bottom: 0;
@@ -133,12 +138,13 @@ body{
       background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 20%, rgba(255,255,255,1) 21.6%,rgba(255,255,255,1) 100%);
     }
 }
+
 @media screen 
   and (max-device-width: 1500px){
     .banner{
       height: 80vh;
     }
-  }
+}
 
 @media screen 
   and (max-device-width: 360px)
