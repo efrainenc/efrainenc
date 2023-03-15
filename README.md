@@ -3,7 +3,7 @@
 <p align="center"> I'm a Software Engineer from Orlando! Currently moving to Denver✈️⛰️</p>
 
 <p>👨‍💻 I'm currently working on: Maze Solver & My Portfolio site📁</p>
-<p>📖 I'm currently learning: C++, Python, Linux</p>
+<p>📖 I'm currently learning: TypeScript, C++, Python, Linux</p>
 
 ### Tech Stack
 
