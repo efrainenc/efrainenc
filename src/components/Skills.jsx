@@ -3,7 +3,7 @@ import '../scss/AboutMe.css'
 
 export const Skills = () => {
   return (
-    <div className='skills'>
+    <section id='skills'>
       <div>
         <h1>Skills</h1>
         <hr></hr>
@@ -52,7 +52,7 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -11,17 +11,18 @@
 
 #resume{
   text-decoration: none;
-  color: var(--dark);
+  color: var(--dark1);
   width: 6rem;
-  border: 1px var(--dark) solid;
+  border: 1px var(--dark1) solid;
   padding: 4px;
   align-self: center;
   transition: 1s;
+  text-align: center;
 }
 
 #resume:hover{
   scale: 1.06;
-  color: var(--blue1);
-  border: 1px var(--blue1) solid;
+  color: var(--night);
+  border: 1px var(--night) solid;
   align-self: center;
 }

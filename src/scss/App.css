@@ -11,7 +11,7 @@
 --blue1: #84A7BA;
 --deep: #6F90AF;
 
---night: #647494;
+--night: #49608d;
 
 /* Sky */
 --skyblue: #0487E2;
@@ -27,14 +27,14 @@ body{
   font-family: 'Nanum Myeongjo', serif;
   background: rgba(45,166,253,1);
   background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 20%, rgba(255,255,255,1) 23%,rgba(255,255,255,1) 100%);
-  color: var(--light);
+  color: whitesmoke;
 }
 
 .App {
   width: 100vw;
 }
 
-.home{
+#home{
   display: flex;
   flex-direction: column;
 }
@@ -61,6 +61,7 @@ body{
 .welcomeContainer h1{
   align-self: center;
 }
+
 .welcomeContainer h2{
   align-self: center;
 }
@@ -75,12 +76,14 @@ body{
   display: flex;
   justify-content: start;
 }
+
 .banner #text{
   position: relative;
   font-size: 4em;
   color: #fff;
 
 }
+
 .banner .clouds{
   position: absolute;
   top: 0;
@@ -90,6 +93,7 @@ body{
   overflow: hidden;
   pointer-events: none;
 }
+
 .banner .clouds img{
   position: absolute;
   bottom: 0;
@@ -131,21 +135,22 @@ body{
       scale: .72;
     }
     body{
-      background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 20%, rgba(255,255,255,1) 22%,rgba(255,255,255,1) 100%);
+      background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 20%, rgba(255,255,255,1) 21.6%,rgba(255,255,255,1) 100%);
     }
 }
+
 @media screen 
   and (max-device-width: 1500px){
     .banner{
       height: 80vh;
     }
-  }
+}
 
 @media screen 
   and (max-device-width: 360px)
   and (max-device-height: 740px){ 
     body{
-      background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 19%, rgba(255,255,255,1) 21.5%,rgba(255,255,255,1) 100%);
+      background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 19%, rgba(255,255,255,1) 22%,rgba(255,255,255,1) 100%);
     }
 }
 

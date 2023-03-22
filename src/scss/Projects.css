@@ -1,9 +1,9 @@
-.projects a{
+#projects a{
   /* text-decoration: none; */
   color: var(--light);
   margin: 12px;
 }
-.projects h1{
+#projects h1{
   color: var(--night);
   font-size: 3vw;
 }
@@ -13,10 +13,11 @@ hr{
   border: none;
 }
 
-.projects{
+#projects{
   display: flex;
   padding: 16px;
   height: 100vh;
+  padding-bottom: 10%;
 }
 
 .HHimg{
@@ -42,7 +43,7 @@ hr{
   align-items: center;
   margin: 16px;
   width: 36%;
-  min-width: 360px;
+  min-width: 320px;
   border-radius: 10px;
   overflow: hidden;
   background-color: var(--night);
@@ -57,20 +58,19 @@ hr{
   margin: 0;
 }
 
-.projects p{
+#projects p{
   color: var(--light);
   padding: 4px 8px;
-  font-size: .8vw;
+  font-size: .9vw;
   margin: 0;
   align-self: start;
 }
 
-.projIcons{
+.projTech{
   display: flex;
   width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
-  scale: .8;
   flex-grow: 1;
 }
 
@@ -80,7 +80,7 @@ hr{
   margin: 0;
 }
 
-.travelogue, .fotobook, .hapihour{
+.projectInfo{
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -89,11 +89,10 @@ hr{
   height: 100%;
   padding: 4px;
 }
-.travelogue:hover, 
-.fotobook:hover, 
-.hapihour:hover{
+.projectInfo:hover{
+  width: 100%;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
   opacity: 1;
 }
 
@@ -103,26 +102,25 @@ hr{
 
 
 /* Media Query */
-@media screen 
-  and (max-device-width: 1300px){ 
+@media(max-device-width: 1300px){ 
     .projectCard p{
       align-self: center;
-      font-size: 12px;
+      font-size: 1vw;
       width: 100%;
     }
-    .projIcons{
-      scale: .5;
+    #projects p{
+      font-size: 14px;
     }
-    .projects h1{
+    #projects h1{
       font-size: 18px;
     }
 }
 
 /* Media Query */
-@media screen 
-  and (max-device-width: 1500px){ 
-    .projects{
+@media(max-device-width: 1500px){ 
+    #projects{
       display: flex;
+      padding-top: 16%;
       align-items: center;
       flex-direction: column;
     }

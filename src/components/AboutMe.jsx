@@ -3,7 +3,7 @@ import '../scss/AboutMe.css'
 
 const AboutMe=()=>{
   return(
-      <div className='aboutMe'>
+      <section id='aboutMe'>
         <div className='aboutMeContainer'>
           <div>
             <h1>About Me</h1>
@@ -17,9 +17,8 @@ const AboutMe=()=>{
               a team environment. A dedicated professional with a strong ability to understand and meet customer needs, resulting in the successful delivery of projects.
             </p>
           </div>
-          
         </div>
-      </div>
+      </section>
   )
 }
 

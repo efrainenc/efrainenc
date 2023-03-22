@@ -3,7 +3,7 @@ import '../scss/Footer.css'
 
 const Footer=()=>{
   return(
-    <div className='footer'>
+    <section className='footer'>
       <a id='resume' href='https://docs.google.com/document/d/1rEJArSEx_BfIzpfcQiIfO-THYSL2T9Uhcm1lBM5Wfvg/edit?usp=share_link'>My Resume</a>
       <a href="https://linkedin.com/in/efrainencarnacion" target="blank">
         <img align="center" 
@@ -19,7 +19,7 @@ const Footer=()=>{
               height="32" 
               width="32" />
       </a>
-    </div>
+    </section>
   )
 }
 
