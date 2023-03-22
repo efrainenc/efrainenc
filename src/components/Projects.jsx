@@ -74,7 +74,7 @@ const Projects=()=>{
             </div>
             <div className='projLinks'>
               <a target="_blank" href='https://HAPI-HOUR.netlify.app/'>Demo</a>
-              <a target="_blank" href='https://github.com/cbowman422/project-2'>Repo</a>
+              <a target="_blank" href='https://github.com/cbowman422/hapi-hour'>Repo</a>
             </div>
           </div>
         </div>

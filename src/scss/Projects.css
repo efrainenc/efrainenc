@@ -54,8 +54,7 @@ hr{
   scale: 1.04;
 }
 .projectCard h2{
-  margin: 8px 0 0 8px;
-  align-self: start;
+  margin: 0;
 }
 
 .projects p{
@@ -68,7 +67,7 @@ hr{
 
 .projIcons{
   display: flex;
-  align-self: start;
+  width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
   scale: .8;
@@ -88,6 +87,7 @@ hr{
   opacity: 0;
   transition: 0.25s;
   height: 100%;
+  padding: 4px;
 }
 .travelogue:hover, 
 .fotobook:hover, 
