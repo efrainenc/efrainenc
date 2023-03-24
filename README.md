@@ -2,7 +2,7 @@
 
 <p align="center"> I'm a Software Engineer from Denver✈️⛰️</p>
 
-<p>👨‍💻 I'm currently working on: Image Recognition App & CompTIA Secrity+</p>
+<p>👨‍💻 I'm currently working on: Image Recognition App & CompTIA Security+</p>
 <p>📖 I'm currently learning: TypeScript, C++, Python, Linux</p>
 
 ### Tech Stack
