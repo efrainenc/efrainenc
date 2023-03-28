@@ -12,7 +12,7 @@ const Home=()=>{
       <div id='welcome'>
         <div className='welcomeContainer'>
           <h2>Hey! I'm</h2>
-          <h1 id='text'>Efrain Encarnacion</h1>
+          <h1 id='text'>Evan Encarnacion</h1>
           <h1>A Full-Stack Developer from Denver!</h1>
         </div>
       </div>

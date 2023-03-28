@@ -25,13 +25,12 @@ const Projects=()=>{
             </p>
             <div className='projLinks'>
               <a target="_blank" href='https://travelogue.herokuapp.com'>[Demo]</a>
-              <a target="_blank" href='https://github.com/efrainenc/travelogue'>[GitHub]</a>
+              <a target="_blank" href='https://github.com/evanenc/travelogue'>[GitHub]</a>
             </div>
           </div>
         </div>
         <div className='projectCard'>
           <img className='FBimg' src='https://i.gyazo.com/13e2920de1b35e6b31e236490f445bdc.png' />
-          {/* <img className='FBimg' src='https://i.gyazo.com/9bd5012fc0a9df00664a730669fd3010.png' />   */}
           <div className='projectInfo'>
             <h2>FotoBook</h2>
             <p>
@@ -43,8 +42,7 @@ const Projects=()=>{
             </p>
             <div className='projLinks'>
               <a target="_blank" href='https://fotobook-dark.netlify.app/'>[Demo]</a>
-              {/* <a target="_blank" href='https://foto-book.netlify.app/'>[Demo]</a> */}
-              <a target="_blank" href='https://github.com/efrainenc/project-3-fe/tree/efrain_dev'>[GitHub]</a>
+              <a target="_blank" href='https://github.com/evanenc/project-3-fe/tree/efrain_dev'>[GitHub]</a>
             </div>
           </div>
         </div>
@@ -75,8 +73,8 @@ const Projects=()=>{
               Tech: JavaScript, HTML, CSS
             </p>
             <div className='projLinks'>
-              <a target="_blank" href='https://efrainenc.github.io/Project-1-Game/'>[Demo]</a>
-              <a target="_blank" href='https://github.com/efrainenc/Project-1-Game'>[GitHub]</a>
+              <a target="_blank" href='https://evanenc.github.io/Project-1-Game/'>[Demo]</a>
+              <a target="_blank" href='https://github.com/evanenc/Project-1-Game'>[GitHub]</a>
             </div>
           </div>
         </div>

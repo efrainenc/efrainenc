@@ -5,7 +5,7 @@ const ContactMe=()=>{
   return (
     <section id='contactMe'>
       <h1>Contact Me</h1>
-      <h2>Email: Efraine387@gmail.com</h2>
+      <h2>Email: evanencarnacion3@gmail.com</h2>
     </section>
   )
 }
