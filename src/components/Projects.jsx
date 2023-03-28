@@ -57,8 +57,8 @@ const Projects=()=>{
               Tech: React, JavaScript, HTML, CSS
             </p>
             <div className='projLinks'>
-              <a target="_blank" href='https://HAPI-HOUR.netlify.app/'>[Demo]</a>
-              <a target="_blank" href='https://github.com/cbowman422/project-2'>[GitHub]</a>
+              <a target="_blank" href='https://HAPI-HOUR.netlify.app/'>Demo</a>
+              <a target="_blank" href='https://github.com/cbowman422/hapi-hour'>Repo</a>
             </div>
           </div>
         </div>

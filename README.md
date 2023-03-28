@@ -1,9 +1,9 @@
-<h1 align='center'>Hi! I'm Efrain!</h1>
+<h1 align='center'>Hi! I'm Evan!</h1>
 
-<p align="center"> I'm a Software Engineer from Orlando! Currently moving to Denver✈️⛰️</p>
+<p align="center"> I'm a Software Engineer from Denver✈️⛰️</p>
 
-<p>👨‍💻 I'm currently working on: Maze Solver & My Portfolio site📁</p>
-<p>📖 I'm currently learning: C++, Python, Linux</p>
+<p>👨‍💻 I'm currently working on: Image Recognition App & CompTIA Security+</p>
+<p>📖 I'm currently learning: Python, C++, Linux</p>
 
 ### Tech Stack
 
