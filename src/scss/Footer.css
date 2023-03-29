@@ -12,9 +12,11 @@
 #resume{
   text-decoration: none;
   color: var(--dark1);
-  width: 6rem;
+  font-size: 24px;
+  font-weight: 900;
+  width:8rem;
   border: 1px var(--dark1) solid;
-  padding: 4px;
+  padding: 8px;
   align-self: center;
   transition: 1s;
   text-align: center;
