@@ -5,6 +5,7 @@
   justify-content: center;
   height: 50vh;
   color: var(--night);
+  padding-bottom: 5%;
   /* background-color: var(--night); */
 }
 #contactMe h2{
