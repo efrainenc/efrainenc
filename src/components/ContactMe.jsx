@@ -8,14 +8,14 @@ const ContactMe=()=>{
   // Replace the values with your email.js credentials and template ID
   const SERVICE_ID = 'service_lubivai';
   const TEMPLATE_ID = 'template_syuknew';
-  const USER_ID = 'Z5VlbAv-CG9M0VNce';
+  const PUBLIC_KEY = 'Z5VlbAv-CG9M0VNce';
 
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('SERVICE_ID', 'TEMPLATE_ID', form.current, 'PUBLIC_KEY')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -26,7 +26,7 @@ const ContactMe=()=>{
   return (
     <section id='contactMe'>
       <h1>Contact Me</h1>
-      <form action="#" method="POST">
+      <form onSubmit={sendEmail}>
         <div>
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" required/>
