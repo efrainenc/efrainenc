@@ -15,9 +15,11 @@ hr{
 
 #projects{
   display: flex;
+  align-items: center;
+  flex-direction: column;
   padding: 16px;
   height: 100vh;
-  padding-bottom: 10%;
+  padding: 10% 0;
 }
 
 .HHimg{
