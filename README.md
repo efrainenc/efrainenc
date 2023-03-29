@@ -1,6 +1,6 @@
 <h1 align='center'>Hi! I'm Evan!</h1>
 
-<p align="center"> I'm a Software Engineer from Denver✈️⛰️</p>
+<p align="center"> I'm a Software Engineer from Orlando!</p>
 
 <p>👨‍💻 I'm currently working on: Image Recognition App & CompTIA Security+</p>
 <p>📖 I'm currently learning: Python, C++, Linux</p>
