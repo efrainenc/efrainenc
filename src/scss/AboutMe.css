@@ -5,6 +5,7 @@
 #aboutMe h1, #skills h1{
   color: var(--night);
   font-size: 3vw;
+  margin: auto;
 }
 #skills h2{
   font-size: 1.5vw;
