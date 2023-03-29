@@ -1,7 +1,28 @@
-import React from 'react'
+import React,{ useRef } from 'react'
+import emailjs from '@emailjs/browser';
 import '../scss/ContactMe.css'
 
 const ContactMe=()=>{
+
+  // Send the form data to your email using email.js
+  // Replace the values with your email.js credentials and template ID
+  const SERVICE_ID = 'service_lubivai';
+  const TEMPLATE_ID = 'template_syuknew';
+  const USER_ID = 'Z5VlbAv-CG9M0VNce';
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <section id='contactMe'>
       <h1>Contact Me</h1>
