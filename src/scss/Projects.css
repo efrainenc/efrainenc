@@ -104,14 +104,14 @@ hr{
 
 
 /* Media Query */
-@media(max-device-width: 1300px){ 
+@media(max-device-width: 1400px){ 
     .projectCard p{
       align-self: center;
       font-size: 1vw;
       width: 100%;
     }
     #projects p{
-      font-size: 14px;
+      font-size: .8rem;
     }
     #projects h1{
       font-size: 18px;

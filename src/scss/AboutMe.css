@@ -56,7 +56,7 @@ hr{
 
 #aboutMe p{
   align-self: center;
-  font-size: 1.4vw;
+  font-size: 1.5vw;
   width: 80%;
   color: var(--night)
 }
@@ -71,7 +71,7 @@ hr{
 
 
 /* Media Query */
-@media(max-device-width: 1250px){ 
+@media(max-device-width: 1000px){ 
     #aboutMe p{
       align-self: center;
       font-size: 2.4vw;
