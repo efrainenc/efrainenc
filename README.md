@@ -3,7 +3,7 @@
 <p align="center"> I'm a Software Engineer from Orlando!</p>
 
 <p>👨‍💻 I'm currently working on: Image Recognition App & CompTIA Security+</p>
-<p>📖 I'm currently learning: Rust, C++, Linux</p>
+<p>📖 I'm currently learning: Linux, Rust, C++</p>
 
 ### Tech Stack
 
