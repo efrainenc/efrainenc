@@ -3,7 +3,7 @@
 <p align="center"> I'm a Software Engineer from Denver!</p>
 
 <p>👨‍💻 I'm currently working on: Image Recognition App</p>
-<p>📖 I'm currently learning: Linux, Docker, Kubernetes </p>
+<p>📖 I'm currently learning: Linux, Kubernetes </p>
 
 ### Tech Stack
 
