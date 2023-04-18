@@ -26,7 +26,9 @@ const ContactMe=()=>{
   return (
     <section id='contactMe'>
       <h1>Contact Me</h1>
-      <form onSubmit={sendEmail}>
+
+      <h2>Efraine387@gmail.com</h2>
+      {/* <form onSubmit={sendEmail}>
         <div>
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" required/>
@@ -46,7 +48,7 @@ const ContactMe=()=>{
         <div>
           <input type="submit" value="Send"/>
         </div>
-      </form>
+      </form> */}
     </section>
   )
 }
