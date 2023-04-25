@@ -9,7 +9,6 @@ const Projects=()=>{
       <br></br>
       <div>
         <h2 className='sectionTitle'>03. Projects</h2>
-        <hr></hr>
         <br></br>
       </div>
       <div className='mainProjects'>

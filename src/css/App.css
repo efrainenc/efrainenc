@@ -25,7 +25,7 @@
 
 body{
   font-family: 'Nanum Myeongjo', serif;
-  background: rgba(45,166,253,1);
+  background: rgb(41, 91, 128);
   color: whitesmoke;
 }
 
@@ -88,12 +88,6 @@ body{
 /* Media Query */
 @media screen 
   and (max-device-width: 820px){
-    .banner{
-      height: 42vh;
-    }
-    .banner .clouds{
-      height: 72vh;
-    }
     #welcome{
       height: 60vh;
     }
