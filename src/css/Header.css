@@ -1,7 +1,8 @@
 .header{
   display: flex;
   height: 60px;
-  justify-content: space-between;
+  justify-content: end;
+  align-items: center;
   background-color: transparent;
   padding: 0 24px;
   z-index: 2;
@@ -11,6 +12,7 @@
 .header a{
   text-decoration: none;
   color:rgb(255, 255, 255);
+  padding: 0 16px;
 }
 
 #resume{
