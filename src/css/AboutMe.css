@@ -2,15 +2,12 @@
   text-decoration: none;
   color: white;
 }
-#aboutMe h1, #skills h1{
+#aboutMe h1{
   color: white;
   font-size: 3vw;
   margin: auto;
 }
-#skills h2{
-  font-size: 1.5vw;
-  width: fit-content;
-}
+
 #aboutMe{
   display: flex;
   color: white;
@@ -19,7 +16,7 @@
   margin-top: 100px;
 }
 
-.aboutMeContainer, #skills{
+.aboutMeContainer{
   display: flex;
   align-items: center;
   justify-content: start;
@@ -30,11 +27,8 @@
   border-radius: 2px;
   color: white;
 }
-#skills{
-  height: 60vh;
-}
 
-.aboutContent, #skillsContainer{
+.aboutContent{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -42,9 +36,6 @@
   max-width: 60%;
 }
 
-.skillCategory{
-  max-width: 90%;
-}
 
 #aboutMe p{
   align-self: center;
@@ -52,15 +43,6 @@
   width: 80%;
   color: white;
 }
-
-.skillList{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* Waves */
-
-
 
 /* Media Query */
 @media(max-device-width: 1000px){ 
@@ -74,7 +56,7 @@
 
 /* Media Query */
 @media(max-device-width: 1500px){ 
-    .aboutMeContainer, #skills{
+    .aboutMeContainer{
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -85,28 +67,16 @@
       height: 42vh;
       margin: 0;
     }
-    #skills{
-      margin-top: 104px ;
-    }
 }
 
 @media(max-device-width: 600px){
-    #aboutMe h1, #skills h1{
+    #aboutMe h1{
       font-size: 18px;
-    }
-    #skills h2{
-      font-size: 16px;
     }
     #aboutMe p{
       font-size: 12px;
     }
     #projects{
       margin-top: 128px;
-    }
-    #skillsContainer{
-      max-width: 100%;
-    }
-    .skillCategory{
-      scale: .72;
     }
 }
