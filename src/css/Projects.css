@@ -4,13 +4,8 @@
   margin: 12px;
 }
 #projects h1{
-  color: var(--night);
+  color: white;
   font-size: 3vw;
-}
-hr{
-  height: 1px;
-  background-color: var(--night);
-  border: none;
 }
 
 #projects{
@@ -44,7 +39,6 @@ hr{
   align-items: center;
   max-width: 50%;
   overflow: hidden;
-  background-color: var(--night);
   transition: 0.3s;
   filter: drop-shadow(-1px 13px 16px rgba(0, 0, 0, 0.3));
 }

@@ -1,9 +1,9 @@
 #aboutMe a{
   text-decoration: none;
-  color: var(--night);
+  color: white;
 }
 #aboutMe h1, #skills h1{
-  color: var(--night);
+  color: white;
   font-size: 3vw;
   margin: auto;
 }
@@ -13,7 +13,7 @@
 }
 #aboutMe{
   display: flex;
-  color: var(--night);
+  color: white;
   height: 72vh;
   justify-content: center;
   margin-top: 100px;
@@ -28,7 +28,7 @@
   padding: 16px;
   width: 100%;
   border-radius: 2px;
-  color: var(--night);
+  color: white;
 }
 #skills{
   height: 60vh;
@@ -46,17 +46,11 @@
   max-width: 90%;
 }
 
-hr{
-  height: 1px;
-  background-color: var(--night);
-  border: none;
-}
-
 #aboutMe p{
   align-self: center;
   font-size: 1.5vw;
   width: 80%;
-  color: var(--night)
+  color: white;
 }
 
 .skillList{

@@ -5,13 +5,11 @@ export const Skills = () => {
   return (
     <section id='skills'>
       <div>
-        <h1>02. Skills</h1>
-        <hr></hr>
+        <h2>02. Skills</h2>
       </div>
       <div className='skillsContainer'>
         <div className='skillCategory'>
           <h2>Languages</h2>
-          <hr></hr>
           <br></br>
           <div className='skillList'>
             <img className='Python' src='https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54'/>
@@ -25,7 +23,6 @@ export const Skills = () => {
         </div>
         <div className='skillCategory'>
           <h2>Databases</h2>
-          <hr></hr>
           <br></br>
           <div className='skillList'>
             <img className='MongoDB' src='https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white'/>
@@ -36,7 +33,6 @@ export const Skills = () => {
         </div>
         <div className='skillCategory'>
           <h2>Frameworks, Platforms and Libraries</h2>
-          <hr></hr>
           <br></br>
           <div className='skillList'>
             <img className='React' src='https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB'/>
