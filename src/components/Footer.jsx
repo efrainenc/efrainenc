@@ -4,7 +4,7 @@ import '../scss/Footer.css'
 const Footer=()=>{
   return(
     <section className='footer'>
-      <a id='resume' href='https://docs.google.com/document/d/1rEJArSEx_BfIzpfcQiIfO-THYSL2T9Uhcm1lBM5Wfvg/edit?usp=share_link'>My Resume</a>
+      <a id='resume' href='https://docs.google.com/document/d/10W3QkQ4qblCWNu1jrTB4JLTZrNNZWe4EXcJhQmd-hbw/edit?usp=sharing'>My Resume</a>
       <a href="https://linkedin.com/in/evanencarnacion" target="blank">
         <img align="center" 
             src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" 
