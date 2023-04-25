@@ -55,7 +55,7 @@ hr{
 #projects p{
   color: var(--light);
   padding: 4px 8px;
-  font-size: .9vw;
+  font-size: 1.3rem;
   margin: 0;
   align-self: start;
 }
