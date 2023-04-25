@@ -84,39 +84,6 @@ body{
 
 }
 
-.banner .clouds{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100%;
-  overflow: hidden;
-  pointer-events: none;
-}
-
-.banner .clouds img{
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  max-width: 100vw;
-  animation: animate calc(3s * var(--i)) linear infinite;
-}
-
-
-/* Cloud Animation */
-@keyframes animate {
-  0%{
-    opacity: 0;
-    transform: scale(.8)
-  }
-  25%, 75%{
-    opacity: 1;
-  }
-  100%{
-    opacity: 0;
-    transform: scale(2.8)
-  }
-}
 
 
 /* Media Query */

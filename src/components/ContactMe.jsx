@@ -1,6 +1,6 @@
 import React,{ useRef } from 'react'
 import emailjs from '@emailjs/browser';
-import '../scss/ContactMe.css'
+import '../css/ContactMe.css'
 
 const ContactMe=()=>{
 
