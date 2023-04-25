@@ -26,7 +26,6 @@
 body{
   font-family: 'Nanum Myeongjo', serif;
   background: rgba(45,166,253,1);
-  background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 20%, rgba(255,255,255,1) 23%,rgba(255,255,255,1) 100%);
   color: whitesmoke;
 }
 
@@ -101,30 +100,11 @@ body{
     .welcomeContainer h1, .welcomeContainer h2{
       scale: .72;
     }
-    body{
-      background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 20%, rgba(255,255,255,1) 21.6%,rgba(255,255,255,1) 100%);
-    }
 }
 
 @media screen 
   and (max-device-width: 1500px){
     .banner{
       height: 80vh;
-    }
-}
-
-@media screen 
-  and (max-device-width: 360px)
-  and (max-device-height: 740px){ 
-    body{
-      background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 19%, rgba(255,255,255,1) 22%,rgba(255,255,255,1) 100%);
-    }
-}
-
-@media screen 
-  and (min-device-width: 540px)
-  and (max-device-height: 740px){ 
-    body{
-      background: linear-gradient(180deg, rgba(45,166,253,1) 0%, rgba(72,180,253,1) 19%, rgba(255,255,255,1) 22%,rgba(255,255,255,1) 100%);
     }
 }

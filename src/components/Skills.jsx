@@ -5,7 +5,7 @@ export const Skills = () => {
   return (
     <section id='skills'>
       <div>
-        <h1>Skills</h1>
+        <h1>02. Skills</h1>
         <hr></hr>
       </div>
       <div className='skillsContainer'>

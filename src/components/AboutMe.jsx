@@ -6,8 +6,7 @@ const AboutMe=()=>{
       <section id='aboutMe'>
         <div className='aboutMeContainer'>
           <div>
-            <h1>About Me</h1>
-            <hr></hr>
+            <h2>01. About Me</h2>
           </div>
           <div className='aboutContent'>
             <p>

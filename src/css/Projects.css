@@ -1,5 +1,5 @@
 #projects a{
-  /* text-decoration: none; */
+  font-size: 1.3rem;
   color: var(--light);
   margin: 12px;
 }
@@ -99,28 +99,36 @@ hr{
   padding-bottom: 8px;
 }
 
-
 /* Media Query */
-@media(max-device-width: 1400px){ 
-    .projectCard p{
-      align-self: center;
-      font-size: 1vw;
-      width: 100%;
-    }
-    #projects p{
-      font-size: .8rem;
-    }
-    #projects h1{
-      font-size: 18px;
-    }
-}
-
-/* Media Query */
-@media(max-device-width: 1500px){ 
+@media only screen and (max-device-width: 1500px){
     #projects{
       display: flex;
       padding-top: 16%;
       align-items: center;
       flex-direction: column;
     }
+}
+
+/* Media Query */
+@media only screen and (max-device-width: 1400px){
+  .projectCard p{
+    align-self: center;
+    font-size: 1vw;
+    width: 100%;
+  }
+  #projects p{
+    font-size: .8rem;
+  }
+  #projects h1{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-device-width: 900px){
+  .mainProjects{
+    flex-direction: column;
+  }
+  .projectCard{
+    max-width: 100%;
+  }
 }
