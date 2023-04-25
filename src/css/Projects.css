@@ -62,12 +62,6 @@
   flex-grow: 1;
 }
 
-.sectionTitle{
-  color: white;
-  width: fit-content;
-  margin: 0;
-}
-
 .projectInfo{
   display: flex;
   flex-direction: column;
