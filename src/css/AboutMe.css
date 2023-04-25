@@ -14,11 +14,9 @@
 #aboutMe{
   display: flex;
   color: var(--night);
-  background-color: white;
   height: 72vh;
   justify-content: center;
   margin-top: 100px;
-  background: white;
 }
 
 .aboutMeContainer, #skills{

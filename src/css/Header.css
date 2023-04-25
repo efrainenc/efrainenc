@@ -12,3 +12,22 @@
   text-decoration: none;
   color:rgb(255, 255, 255);
 }
+
+#resume{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 12px;
+  font-weight: 700;
+  border: 1px whitesmoke solid;
+  padding: 4px;
+  align-self: center;
+  transition: 1s;
+  text-align: center;
+}
+
+#resume:hover{
+  scale: 1.06;
+  color: white;
+  border: 1px white solid;
+  align-self: center;
+}
