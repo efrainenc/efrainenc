@@ -31,9 +31,4 @@ body{
 
 .App {
   width: 100vw;
-  background-image: url(https://images.hdqwalls.com/wallpapers/moon-clouds-4k-1p.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
