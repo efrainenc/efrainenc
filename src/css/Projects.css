@@ -43,18 +43,12 @@ hr{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 16px;
   width: 36%;
   min-width: 320px;
-  border-radius: 10px;
   overflow: hidden;
   background-color: var(--night);
   transition: 0.3s;
   filter: drop-shadow(-1px 13px 16px rgba(0, 0, 0, 0.3));
-}
-
-.projectCard:hover{
-  scale: 1.04;
 }
 .projectCard h2{
   margin: 0;
@@ -91,8 +85,12 @@ hr{
   height: 100%;
   padding: 4px;
 }
+
+.projectInfo h2{
+  padding: 4px;
+}
+
 .projectInfo:hover{
-  width: 100%;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.7);
   opacity: 1;
