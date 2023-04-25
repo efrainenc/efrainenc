@@ -4,7 +4,7 @@ import '../css/Footer.css'
 const Footer=()=>{
   return(
     <section className='footer'>
-      <a href="https://linkedin.com/in/evanencarnacion" target="blank">
+      {/* <a href="https://linkedin.com/in/evanencarnacion" target="blank">
         <img align="center" 
             src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" 
             alt="LinkedIn" 
@@ -17,7 +17,7 @@ const Footer=()=>{
               alt="GitHub" 
               height="32" 
               width="32" />
-      </a>
+      </a> */}
     </section>
   )
 }
