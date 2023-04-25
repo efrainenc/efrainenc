@@ -4,15 +4,20 @@
   justify-content: end;
   align-items: center;
   background-color: transparent;
-  padding: 0 24px;
+  padding: 8px 48px;
   z-index: 2;
 
 }
 
 .header a{
   text-decoration: none;
-  color:rgb(255, 255, 255);
+  color:whitesmoke;
   padding: 0 16px;
+  transition: 1s;
+}
+
+.header a::hover{
+  color: greenyellow;
 }
 
 .header span{
@@ -21,9 +26,9 @@
 
 #resume{
   text-decoration: none;
-  color: whitesmoke;
+  color: greenyellow;
   font-size: 16px;
-  border: 1px whitesmoke solid;
+  border: 1px greenyellow solid;
   padding: 4px;
   align-self: center;
   transition: 1s;
@@ -32,7 +37,7 @@
 
 #resume:hover{
   scale: 1.06;
-  color: white;
-  border: 1px white solid;
+  color: greenyellow;
+  border: 1px greenyellow solid;
   align-self: center;
 }
