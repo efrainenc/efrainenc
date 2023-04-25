@@ -33,6 +33,10 @@ body{
   width: 100vw;
 }
 
+h2 span{
+  color: greenyellow;
+}
+
 #home{
   display: flex;
   flex-direction: column;

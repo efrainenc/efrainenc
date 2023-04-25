@@ -1,9 +1,9 @@
 import React from 'react'
-import '../css/Footer.css'
+import '../css/Socials.css'
 
-const Footer=()=>{
+const Socials=()=>{
   return(
-    <section className='footer'>
+    <section className='socials'>
       {/* <a href="https://linkedin.com/in/evanencarnacion" target="blank">
         <img align="center" 
             src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" 
@@ -22,4 +22,4 @@ const Footer=()=>{
   )
 }
 
-export default Footer
+export default Socials

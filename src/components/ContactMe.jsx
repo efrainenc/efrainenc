@@ -25,7 +25,7 @@ const ContactMe=()=>{
 
   return (
     <section id='contactMe'>
-      <h1><span>04. </span>Contact Me</h1>
+      <h2><span>04. </span>Contact Me</h2>
 
       <h2>evanencarnacion3@gmail.com</h2>
     </section>
