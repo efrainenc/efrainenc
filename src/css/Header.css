@@ -3,11 +3,10 @@
   height: 60px;
   align-items: center;
   background-color: rgba(41, 91, 128, .3);
-  width: 98%;
+  width: 100%;
   z-index: 2;
   position: fixed;
   justify-content:right;
-  padding-right: 16px;
 }
 
 .header a{
