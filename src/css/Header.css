@@ -15,11 +15,14 @@
   padding: 0 16px;
 }
 
+.header span{
+  color:rgb(112, 243, 60);
+}
+
 #resume{
   text-decoration: none;
   color: whitesmoke;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 16px;
   border: 1px whitesmoke solid;
   padding: 4px;
   align-self: center;

@@ -6,7 +6,7 @@ const AboutMe=()=>{
       <section id='aboutMe'>
         <div className='aboutMeContainer'>
           <div>
-            <h2>01. About Me</h2>
+            <h2><span>01. </span>About Me</h2>
           </div>
           <div className='aboutContent'>
             <p>

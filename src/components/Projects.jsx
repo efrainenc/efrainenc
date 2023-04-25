@@ -8,7 +8,7 @@ const Projects=()=>{
       <br></br>
       <br></br>
       <div>
-        <h2 className='sectionTitle'>03. Projects</h2>
+        <h2 className='sectionTitle'><span>03. </span>Projects</h2>
         <br></br>
       </div>
       <div className='mainProjects'>
