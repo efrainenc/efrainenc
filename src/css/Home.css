@@ -2,6 +2,14 @@ h2 span{
   color: greenyellow;
 }
 
+.welcomeName, .welcomeInfo{
+  font-size: 2.5rem;
+}
+
+.welcomeInfo{
+  color:rgb(202, 202, 202);
+}
+
 #home{
   display: flex;
   flex-direction: column;

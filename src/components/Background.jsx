@@ -8,7 +8,7 @@ function Background() {
     function handleScroll() {
       const windowHeight = window.innerHeight;
       const scrollY = window.scrollY;
-      const newOpacity = .2 - (scrollY / (windowHeight));
+      const newOpacity = .5 - (scrollY / (windowHeight));
       setOpacity(newOpacity);
     
       if (scrollY === 0) { // check if user has scrolled to the top
