@@ -4,20 +4,20 @@ import '../css/Socials.css'
 const Socials=()=>{
   return(
     <section className='socials'>
-      {/* <a href="https://linkedin.com/in/evanencarnacion" target="blank">
+      <a href="https://linkedin.com/in/evanencarnacion" target="blank">
         <img align="center" 
-            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" 
+            src="https://www.svgrepo.com/show/58271/linkedin.svg" 
             alt="LinkedIn" 
-            height="32" 
-            width="32" />
+            height="26" 
+            width="26" />
       </a>
       <a href="https://github.com/evanenc" target="blank">
         <img align="center" 
-              src="https://cdn-icons-png.flaticon.com/512/25/25231.png" 
+              src="https://icons.veryicon.com/png/o/internet--web/logos/github-line.png" 
               alt="GitHub" 
-              height="32" 
-              width="32" />
-      </a> */}
+              height="26" 
+              width="26" />
+      </a>
     </section>
   )
 }
