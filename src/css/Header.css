@@ -30,7 +30,7 @@
   font-size: 16px;
   border: 1px greenyellow solid;
   padding: 6px;
-  margin: 4px;
+  margin: 4px 16px 4px 4px;
   align-self: center;
   transition: 1s;
   text-align: center;
