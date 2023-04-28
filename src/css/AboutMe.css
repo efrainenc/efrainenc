@@ -34,14 +34,15 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: start;
-  max-width: 60%;
+  width: 60%;
+  max-width: 80%;
+  height: auto;
 }
 
 
 #aboutMe p{
   align-self: center;
   font-size: 1.5rem;
-  width: 80%;
   color: white;
 }
 
@@ -62,11 +63,7 @@
       align-items: center;
       flex-direction: column;
       justify-content: start;
-      max-height: 50vh;
-    }
-    #aboutMe{
-      height: 42vh;
-      margin: 0;
+      max-height: 60vh;
     }
 }
 
