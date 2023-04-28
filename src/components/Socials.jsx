@@ -4,7 +4,7 @@ import '../css/Socials.css'
 const Socials=()=>{
   return(
     <section className='socials'>
-      <a href="https://linkedin.com/in/evanencarnacion" target="blank">
+      {/* <a href="https://linkedin.com/in/evanencarnacion" target="blank">
         <img align="center" 
             src="https://www.svgrepo.com/show/58271/linkedin.svg" 
             alt="LinkedIn" 
@@ -17,7 +17,7 @@ const Socials=()=>{
               alt="GitHub" 
               height="26" 
               width="26" />
-      </a>
+      </a> */}
     </section>
   )
 }
