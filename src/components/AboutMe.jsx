@@ -1,8 +1,12 @@
 import React from 'react'
-import '../css/AboutMe.css'
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import '../css/AboutMe.css';
+import "animate.css/animate.min.css";
 
 const AboutMe=()=>{
+
   return(
+    <AnimationOnScroll animateIn="animate__fadeInUp">
       <section id='aboutMe'>
         <div className='aboutMeContainer'>
           <div>
@@ -18,6 +22,8 @@ const AboutMe=()=>{
           </div>
         </div>
       </section>
+    </AnimationOnScroll>
+
   )
 }
 
