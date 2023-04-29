@@ -1,7 +1,6 @@
 import './css/App.css';
 import Header from './components/Header'
 import Home from './components/Home'
-import Socials from './components/Socials'
 import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
 import ContactMe from './components/ContactMe'
@@ -17,7 +16,6 @@ function App() {
       <Skills />
       <Projects />
       <ContactMe />
-      <Socials />
       <Background />
     </div>
   );

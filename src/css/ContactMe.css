@@ -14,3 +14,15 @@
   font-size: 1.5vw;
 }
 
+.socials{
+  display: flex;
+  flex-direction: row;
+}
+
+.socials svg{
+  color: white;
+  margin: 8px;
+  width: 32px;
+  height: 32px;
+}
+
