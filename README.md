@@ -2,8 +2,8 @@
 
 <p align="center"> I'm a Software Engineer from Denver!</p>
 
-<p>👨‍💻 I'm currently working on: Refactoring and Improving previous projects📈</p>
-<p>📖 I'm currently learning: Svelte, Linux</p>
+<p>👨‍💻 I'm currently working on: Dashboard w/Svelte and Improving portfolio📈</p>
+<p>📖 I'm currently learning: Svelte, Rust</p>
 
 ### Tech Stack
 
