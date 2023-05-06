@@ -44,7 +44,7 @@ const Projects=()=>{
               </p>
               <div className='projLinks'>
                 <a target="_blank" href='https://fotobook-dark.netlify.app/'>[Demo]</a>
-                <a target="_blank" href='https://github.com/evanenc/project-3-fe/tree/efrain_dev'>[GitHub]</a>
+                <a target="_blank" href='https://github.com/efrainenc/project-3-fe/tree/efrain_dev'>[GitHub]</a>
               </div>
             </div>
           </div>
@@ -75,8 +75,8 @@ const Projects=()=>{
                 Tech: JavaScript, HTML, CSS
               </p>
               <div className='projLinks'>
-                <a target="_blank" href='https://evanenc.github.io/Project-1-Game/'>[Demo]</a>
-                <a target="_blank" href='https://github.com/evanenc/Project-1-Game'>[GitHub]</a>
+                <a target="_blank" href='https://efrainenc.github.io/Project-1-Game/'>[Demo]</a>
+                <a target="_blank" href='https://github.com/efrainenc/Project-1-Game'>[GitHub]</a>
               </div>
             </div>
           </div>
