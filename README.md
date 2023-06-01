@@ -1,6 +1,6 @@
 <h1 align='center'>Hi! I'm Efrain!</h1>
 
-<p align="center"> I'm a Software Engineer from Denver!</p>
+<p align="center"> I'm a Software Engineer from Orlando!</p>
 
 <p>👨‍💻 I'm currently working on: Dashboard w/Svelte and Improving portfolio📈</p>
 <p>📖 I'm currently learning: Svelte, Rust</p>
