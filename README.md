@@ -2,7 +2,7 @@
 
 <p align="center"> I'm a Software Engineer from Orlando!</p>
 
-<p>👨‍💻 I'm currently working on: Finishing Bachelors and CompTIA A+ & Network+🎓</p>
+<p>👨‍💻 I'm currently working on: Finishing Bachelors and CompTIA A+🎓</p>
 <p>📖 I'm currently learning: Advanced C and Java💻</p>
 
 ### Tech Stack
