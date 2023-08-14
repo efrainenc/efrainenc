@@ -2,8 +2,8 @@
 
 <p align="center"> I'm a Software Engineer from Orlando!</p>
 
-<p>👨‍💻 I'm currently working on: Freelance Ecommerce site</p>
-<p>📖 I'm currently learning: Svelte, Rust</p>
+<p>👨‍💻 I'm currently working on: Finishing Bachelors and CompTIA A+ & Network+🎓</p>
+<p>📖 I'm currently learning: Advanced C and Java💻</p>
 
 ### Tech Stack
 
