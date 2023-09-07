@@ -35,6 +35,7 @@ h2 span{
   and (max-device-width: 820px){
     #welcome{
       height: 60vh;
+      padding-top: 20%;
     }
     #welcome h1, #welcome h2{
       scale: .72;

@@ -33,6 +33,7 @@
   
   .skillCategory{
     max-width: 90%;
+    margin: 32px
   }
   
   .skillList{
@@ -65,6 +66,6 @@
         max-width: 100%;
       }
       .skillCategory{
-        scale: .72;
+        padding: 0 16px
       }
   }
