@@ -35,7 +35,6 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: start;
-  width: 60%;
   max-width: 80%;
   height: auto;
 }
