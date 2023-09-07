@@ -115,6 +115,7 @@
 @media only screen and (max-device-width: 900px){
   .mainProjects{
     flex-direction: column;
+    width: 100%;
   }
   .projectCard{
     max-width: 100%;
