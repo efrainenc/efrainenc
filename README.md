@@ -3,7 +3,7 @@
 <p align="center"> I'm a Software Engineer from Orlando!</p>
 
 <p>👨‍💻 I'm currently working on: Finishing Bachelors and CompTIA A+🎓</p>
-<p>📖 I'm currently learning: Advanced C and Linux From Scratch💻</p>
+<p>📖 I'm currently learning: Algos and Data Structs in C and Linux From Scratch💻</p>
 
 ### Tech Stack
 
