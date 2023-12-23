@@ -2,8 +2,8 @@
 
 <p align="center"> I'm a Software Engineer from Orlando!</p>
 
-<p>👨‍💻 I'm currently working on: Finishing Bachelors and CompTIA Network+🎓</p>
-<p>📖 I'm currently learning: Algos and Data Structs in C and Linux From Scratch💻</p>
+<p>👨‍💻 I'm currently working on: Senior Year Comp Sci Bachelors and CompTIA Network+🎓</p>
+<p>📖 I'm currently learning: Computer Logic, Security in Computing and Advanced Algorithms in C💻</p>
 
 ### Tech Stack
 
