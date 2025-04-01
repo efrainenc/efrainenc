@@ -27,7 +27,7 @@ const Projects=()=>{
               </p>
               <div className='projLinks'>
                 <a target="_blank" href='https://travelogue.herokuapp.com'>[Demo]</a>
-                <a target="_blank" href='https://github.com/evanenc/travelogue'>[GitHub]</a>
+                <a target="_blank" href='https://github.com/efrainenc/travelogue'>[GitHub]</a>
               </div>
             </div>
           </div>
@@ -49,7 +49,7 @@ const Projects=()=>{
             </div>
           </div>
           <div className='projectCard'>
-            <img className='HHimg' src='https://camo.githubusercontent.com/8dd8bc2b4aa5f063a1087d76e7c8eeefa329c719c1daeae29783124cfa910187/68747470733a2f2f696d6775722e636f6d2f43784558506b442e6a7067' />
+            <img className='HHimg' src='https://imgur.com/Czu6cLc.png' />
             <div className='projectInfo'>
               <h2>HAPI HOUR</h2>
               <p>
@@ -65,7 +65,7 @@ const Projects=()=>{
             </div>
           </div>
           <div className='projectCard'>
-          <img className='SSimg' src='https://camo.githubusercontent.com/4f5d3a6b50ebd00ede2ed641b79533f2e9f844d4814c2e1fd1df148da3819e80/68747470733a2f2f692e6779617a6f2e636f6d2f63386333393038613036303031383938663263626362316535623338656431332e6a7067' />
+          <img className='SSimg' src='https://imgur.com/ccsdXD1.png' />
             <div className='projectInfo'>
               <h2>Simon Says</h2>
               <p>
