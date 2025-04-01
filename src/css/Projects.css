@@ -3,6 +3,7 @@
   color: var(--light);
   margin: 12px;
 }
+
 #projects h1{
   color: white;
   font-size: 3vw;
@@ -42,6 +43,7 @@
   transition: 0.3s;
   filter: drop-shadow(-1px 13px 16px rgba(0, 0, 0, 0.3));
 }
+
 .projectCard h2{
   margin: 0;
 }
@@ -120,4 +122,10 @@
   .projectCard{
     max-width: 100%;
   }
+  #projects{
+    padding: 0% 10%;
+    padding-bottom: 55%;
+    margin-top: 128px;
+  }
+
 }
