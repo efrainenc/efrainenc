@@ -15,19 +15,19 @@ const Projects=()=>{
           <br></br>
         </div>
         <div className='mainProjects'>
-          <div className='projectCard'>
-            <img className='TLimg' src='https://i.gyazo.com/a58e1fdb0a1a097b63abbab19b7741cd.jpg' />
+        <div className='projectCard'>
+            <img className='HHimg' src='https://imgur.com/Czu6cLc.png' />
             <div className='projectInfo'>
-              <h2>Travelogue</h2>
+              <h2>HAPI HOUR</h2>
               <p>
-                A Full stack travel app that helps you plan, track and log your trips w/OAuth2.0 for Google Authentication
-              </p>            
+                A React app collaboration that utilizes API calls to provide the user with any cocktail of various categories.
+              </p>
               <p className='projTech'>
-                Tech: Django, Python, OAuth2.0, PostgreSQL, Bootstrap
+                Tech: React, JavaScript, HTML, CSS
               </p>
               <div className='projLinks'>
-                <a target="_blank" href='https://travelogue.herokuapp.com'>[Demo]</a>
-                <a target="_blank" href='https://github.com/efrainenc/travelogue'>[GitHub]</a>
+                <a target="_blank" href='https://HAPI-HOUR.netlify.app/'>[Demo]</a>
+                <a target="_blank" href='https://github.com/cbowman422/hapi-hour'>[Repo]</a>
               </div>
             </div>
           </div>
@@ -49,18 +49,18 @@ const Projects=()=>{
             </div>
           </div>
           <div className='projectCard'>
-            <img className='HHimg' src='https://imgur.com/Czu6cLc.png' />
+            <img className='TLimg' src='https://i.gyazo.com/a58e1fdb0a1a097b63abbab19b7741cd.jpg' />
             <div className='projectInfo'>
-              <h2>HAPI HOUR</h2>
+              <h2>Travelogue</h2>
               <p>
-                A React app collaboration that utilizes API calls to provide the user with any cocktail of various categories.
-              </p>
+                A Full stack travel app that helps you plan, track and log your trips w/OAuth2.0 for Google Authentication
+              </p>            
               <p className='projTech'>
-                Tech: React, JavaScript, HTML, CSS
+                Tech: Django, Python, OAuth2.0, PostgreSQL, Bootstrap
               </p>
               <div className='projLinks'>
-                <a target="_blank" href='https://HAPI-HOUR.netlify.app/'>[Demo]</a>
-                <a target="_blank" href='https://github.com/cbowman422/hapi-hour'>[Repo]</a>
+                <a target="_blank" href='https://travelogue.herokuapp.com'>[Demo]</a>
+                <a target="_blank" href='https://github.com/efrainenc/travelogue'>[GitHub]</a>
               </div>
             </div>
           </div>
