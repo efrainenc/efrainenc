@@ -65,7 +65,7 @@ const Projects=()=>{
             </div>
           </div>
           <div className='projectCard'>
-          <img className='SSimg' src='https://imgur.com/ccsdXD1.png' />
+          <img className='SSimg' src='https://imgur.com/ccsdXD1.png' height="100%"/>
             <div className='projectInfo'>
               <h2>Simon Says</h2>
               <p>
