@@ -3,7 +3,7 @@
 <p align="center"> I'm a Software Engineer from Orlando!</p>
 
 <p>👨‍💻 I'm currently working on: Senior Year Comp Sci Bachelors</p>
-<p>📖 I'm currently learning: C/C++ and Unreal Engine</p>
+<p>📖 I'm currently learning: C/C++</p>
 
 ### Tech Stack
 
