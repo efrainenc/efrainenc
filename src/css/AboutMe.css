@@ -1,70 +1,122 @@
-
-#aboutMe a{
-  text-decoration: none;
-  color: white;
-}
-#aboutMe h1{
-  color: white;
-  font-size: 3vw;
-  margin: auto;
-}
-
 #aboutMe{
+  position: relative;
+  min-height: 100vh;
   display: flex;
-  color: white;
-  height: 72vh;
-  justify-content: center;
-  margin-top: 100px;
-}
-
-#aboutMe h2{
-  font-size: 1.5rem;
+  align-items: center;
+  padding: 96px var(--padding) 72px;
 }
 
 .aboutMeContainer{
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(280px, 0.75fr);
+  gap: clamp(28px, 5vw, 90px);
+  align-items: center;
+}
+
+.aboutText{
+  margin-top: clamp(24px, 4vw, 56px);
+  font-family: var(--display);
+  font-weight: 600;
+  font-stretch: 100%;
+  font-size: clamp(1.15rem, 2.05vw, 2.05rem);
+  line-height: 1.32;
+  letter-spacing: -0.01em;
+  color: var(--foreground);
+}
+
+.aboutWord{
+  display: inline;
+}
+
+/* neofetch card */
+
+.aboutCard{
+  border: 1px solid rgba(57,255,136,0.35);
+  background: rgba(6,12,10,0.78);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 60px rgba(57,255,136,0.08), 0 30px 60px rgba(0,0,0,0.5);
+  font-size: clamp(11px, 1vw, 13.5px);
+  will-change: transform;
+}
+
+.aboutBar{
   display: flex;
   align-items: center;
-  justify-content: start;
-  flex-direction: column;
-  width: 100%;
-  color: white;
+  gap: 7px;
+  padding: 9px 12px;
+  border-bottom: 1px solid rgba(57,255,136,0.25);
+  color: var(--dim);
+  font-size: 11px;
 }
 
-.aboutContent{
+.aboutBar i{
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--dim);
+  opacity: 0.5;
+}
+
+.aboutBar i:nth-child(1){
+  background: var(--red);
+  opacity: 0.9;
+}
+
+.aboutBar i:nth-child(2){
+  background: #ffcf4a;
+  opacity: 0.9;
+}
+
+.aboutBar i:nth-child(3){
+  background: var(--green);
+  opacity: 0.9;
+}
+
+.aboutBar span{
+  margin-left: 8px;
+}
+
+.aboutBody{
+  padding: 18px 18px 22px;
+}
+
+.aboutTux{
+  margin: 0 0 16px;
+  font-family: var(--mono);
+  color: var(--green);
+  line-height: 1.15;
+  font-size: 1.15em;
+  text-shadow: 0 0 12px rgba(57,255,136,0.5);
+}
+
+.aboutBody dl div{
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: start;
-  max-width: 80%;
-  height: auto;
+  gap: 12px;
+  padding: 2px 0;
 }
 
-
-#aboutMe p{
-  align-self: center;
-  font-size: 1.5rem;
-  color: white;
+.aboutBody dt{
+  color: var(--cyan);
+  min-width: 6ch;
+  font-weight: 600;
 }
 
-/* Media Query */
-@media(max-device-width: 1500px){ 
-    .aboutMeContainer{
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      justify-content: start;
-      max-height: 60vh;
-    }
+.aboutBody dd{
+  color: var(--foreground);
 }
 
-@media only screen and (max-device-width: 900px){
-  #aboutMe h1{
-    font-size: 18px;
+@media (max-width: 900px){
+  #aboutMe{
+    min-height: 0;
+    padding-top: 110px;
   }
-  #aboutMe p{
-    align-self: center;
-    font-size: 2.4vw;
-    width: 90%;
-    margin-top: 32px;
+
+  .aboutMeContainer{
+    grid-template-columns: 1fr;
+  }
+
+  .aboutText{
+    font-size: clamp(1.05rem, 4.4vw, 1.5rem);
   }
 }

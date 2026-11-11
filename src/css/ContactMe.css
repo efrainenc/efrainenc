@@ -1,28 +1,104 @@
 #contactMe{
+  position: relative;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 50vh;
-  color:white;
-  padding-bottom: 5%;
-  /* background-color: var(--night); */
+  justify-content: space-between;
+  padding: clamp(100px, 14vw, 180px) var(--padding) 70px;
+  overflow: hidden;
 }
 
+.contactGhost{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  white-space: nowrap;
+  font-family: var(--display);
+  font-weight: 900;
+  font-stretch: 125%;
+  font-size: clamp(10rem, 30vw, 30rem);
+  line-height: 1;
+  transform: translateY(-50%);
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(57,255,136,0.09);
+  pointer-events: none;
+  user-select: none;
+  will-change: transform;
+}
 
-#contactMe h1{
-  font-size: 1.5vw;
+.contactInner{
+  position: relative;
+  z-index: 2;
+}
+
+.contactMail{
+  display: inline-block;
+  margin-top: clamp(28px, 5vw, 64px);
+  font-family: var(--display);
+  font-weight: 800;
+  font-stretch: 105%;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  font-size: clamp(1.5rem, 6.1vw, 6.6rem);
+  color: var(--foreground);
+  word-break: break-all;
+  background: linear-gradient(var(--green), var(--green)) 0 100% / 0 3px no-repeat;
+  transition: background-size 0.6s cubic-bezier(.2,.8,.2,1), color 0.3s, text-shadow 0.3s;
+}
+
+.contactMail:hover{
+  background-size: 100% 3px;
+  color: #fff;
+  text-shadow: 0 0 40px rgba(57,255,136,0.45);
 }
 
 .socials{
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: clamp(28px, 4vw, 54px);
+}
+
+.socials a{
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  border: 1px solid rgba(228,255,241,0.25);
+  transition: border-color 0.3s, background 0.3s, color 0.3s, transform 0.3s;
 }
 
 .socials svg{
-  color: white;
-  margin: 8px;
-  width: 32px;
-  height: 32px;
+  width: 22px;
+  height: 22px;
 }
 
+.socials a:hover{
+  border-color: var(--green);
+  background: rgba(57,255,136,0.1);
+  color: var(--green);
+  transform: translateY(-3px);
+}
+
+.contactFoot{
+  position: relative;
+  z-index: 2;
+  margin-top: clamp(60px, 9vw, 120px);
+  padding-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: var(--dim);
+  border-top: 1px solid var(--line);
+  padding-bottom: 28px;
+}
+
+.contactFoot a{
+  color: var(--green);
+}
+
+.contactFoot a:hover{
+  text-decoration: underline;
+}

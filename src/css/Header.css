@@ -1,43 +1,145 @@
 .header{
-  display: flex;
-  height: 60px;
-  align-items: center;
-  width: 100%;
-  z-index: 2;
   position: fixed;
-  justify-content:right;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 110;
+  height: 68px;
+  padding: 0 var(--padding);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, rgba(4,7,10,0.92) 55%, rgba(4,7,10,0));
+  backdrop-filter: blur(4px);
+  font-size: 13px;
 }
 
-.header a{
-  text-decoration: none;
-  color:whitesmoke;
-  padding: 0 16px;
-  transition: 1s;
+.headerLogo{
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
-.header a:hover{
-  color: greenyellow;
+.headerUser{
+  color: var(--green);
 }
 
-.header span{
-  color:greenyellow;
+.headerAt{
+  color: var(--dim);
+}
+
+.headerHost{
+  color: var(--cyan);
+}
+
+.headerPath{
+  color: var(--dim);
+}
+
+.headerNav{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.headerNav a:not(#resume){
+  position: relative;
+  padding: 8px 14px;
+  color: var(--foreground);
+  transition: color 0.3s;
+}
+
+.headerNav a span{
+  color: var(--green);
+}
+
+.headerNav a:not(#resume)::after{
+  content: '';
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 4px;
+  height: 1px;
+  background: var(--green);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s cubic-bezier(.2,.8,.2,1);
+}
+
+.headerNav a:not(#resume):hover::after, .headerNav a.isActive::after{
+  transform: scaleX(1);
+}
+
+.headerNav a:hover{
+  color: #fff;
 }
 
 #resume{
-  text-decoration: none;
-  color: greenyellow;
-  font-size: 16px;
-  border: 1px greenyellow solid;
-  padding: 6px;
-  margin: 4px 16px 4px 4px;
-  align-self: center;
-  transition: 1s;
-  text-align: center;
+  margin-left: 10px;
+  padding: 7px 14px;
+  border: 1px solid var(--green);
+  color: var(--green);
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s;
 }
 
 #resume:hover{
-  scale: 1.06;
-  color: greenyellow;
-  border: 1px greenyellow solid;
-  align-self: center;
+  background: var(--green);
+  color: var(--background);
+  box-shadow: 0 0 22px rgba(57,255,136,0.5);
+}
+
+.headerToggle{
+  display: none;
+  color: var(--green);
+  font-size: 13px;
+}
+
+@media (max-width: 760px){
+  .headerToggle{
+    display: block;
+  }
+
+  .headerNav{
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: rgba(4,7,10,0.96);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 var(--padding);
+    gap: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+
+  .header.isOpen .headerNav{
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .headerNav a:not(#resume){
+    font-family: var(--display);
+    font-weight: 800;
+    font-stretch: 112%;
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    padding: 0;
+  }
+
+  .headerNav a:not(#resume)::after{
+    display: none;
+  }
+
+  .headerNav a span{
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-right: 6px;
+  }
+
+  #resume{
+    margin: 18px 0 0;
+    font-size: 1rem;
+  }
 }

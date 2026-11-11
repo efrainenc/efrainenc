@@ -1,0 +1,68 @@
+.loader{
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: #020405;
+  color: var(--green);
+  font-family: var(--mono);
+  font-size: clamp(11px, 1.25vw, 14px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--padding);
+  cursor: pointer;
+}
+
+.loaderLog{
+  margin: 0;
+  white-space: pre-wrap;
+  line-height: 1.7;
+  color: #9dffc6;
+  text-shadow: 0 0 8px rgba(57,255,136,0.45);
+  overflow: hidden;
+}
+
+.loaderFoot{
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.loaderPercent{
+  font-family: var(--display);
+  font-weight: 800;
+  font-stretch: 112%;
+  font-size: clamp(4rem, 16vw, 14rem);
+  line-height: 0.85;
+  color: var(--foreground);
+  letter-spacing: -0.04em;
+}
+
+.loaderLabel{
+  color: var(--dim);
+}
+
+.loaderHint{
+  margin-left: auto;
+  color: var(--dim);
+  opacity: 0.6;
+}
+
+.loaderBar{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: rgba(57,255,136,0.12);
+}
+
+.loaderBar i{
+  display: block;
+  height: 100%;
+  background: var(--green);
+  box-shadow: 0 0 14px var(--green);
+  transform-origin: left;
+  transform: scaleX(0);
+}

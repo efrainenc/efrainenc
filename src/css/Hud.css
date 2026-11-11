@@ -1,0 +1,50 @@
+.progress{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  z-index: 120;
+  pointer-events: none;
+}
+
+.progress i{
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--green), var(--cyan));
+  box-shadow: 0 0 10px var(--green);
+  transform-origin: left;
+  transform: scaleX(0);
+}
+
+.hud{
+  position: fixed;
+  left: var(--padding);
+  bottom: 18px;
+  z-index: 120;
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  color: var(--dim);
+  display: flex;
+  gap: 18px;
+  pointer-events: none;
+  text-transform: uppercase;
+}
+
+.hud div{
+  display: flex;
+  gap: 8px;
+}
+
+.hud b{
+  color: var(--green);
+  font-weight: 500;
+  min-width: 4.2ch;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 760px){
+  .hud{
+    display: none;
+  }
+}

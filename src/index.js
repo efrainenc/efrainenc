@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import '@fontsource-variable/archivo/standard';
+import '@fontsource-variable/jetbrains-mono';
 import './css/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

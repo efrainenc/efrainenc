@@ -1,0 +1,67 @@
+.cursor{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 150;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.cursor.isOn{
+  opacity: 1;
+}
+
+.cursorRing{
+  position: absolute;
+  left: -14px;
+  top: -14px;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--green);
+  border-radius: 50%;
+  transition: transform 0.3s cubic-bezier(.2,.8,.2,1), background 0.3s;
+}
+
+.cursorRing::before, .cursorRing::after{
+  content: '';
+  position: absolute;
+  background: var(--green);
+}
+
+.cursorRing::before{
+  left: 50%;
+  top: -6px;
+  bottom: -6px;
+  width: 1px;
+  opacity: 0.5;
+}
+
+.cursorRing::after{
+  top: 50%;
+  left: -6px;
+  right: -6px;
+  height: 1px;
+  opacity: 0.5;
+}
+
+.cursor.isHot .cursorRing{
+  transform: scale(1.9);
+  background: rgba(57,255,136,0.12);
+}
+
+.cursorLabel{
+  position: absolute;
+  left: 22px;
+  top: 18px;
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--dim);
+  white-space: nowrap;
+}
+
+@media (pointer: coarse){
+  .cursor{
+    display: none;
+  }
+}

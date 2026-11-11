@@ -21,14 +21,144 @@
 --brightskyblue: #09B1EC;
 
 --i: 0;
+
+/* Cyber */
+--background: #04070a;
+--foreground: #e4fff1;
+--dim: #6b8578;
+--line: rgba(120, 255, 190, 0.14);
+--green: #39ff88;
+--cyan: #27d9ff;
+--red: #ff3b6b;
+--display: 'Archivo Variable', 'Archivo', Impact, 'Arial Narrow', sans-serif;
+--mono: 'JetBrains Mono Variable', 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+--padding: clamp(20px, 4vw, 64px);
+}
+
+html{
+  background: var(--background);
 }
 
 body{
-  font-family: 'VT323', monospace;
-  background: rgb(41, 91, 128);
-  color: whitesmoke;
+  font-family: var(--mono);
+  font-size: 15px;
+  line-height: 1.6;
+  background-color: var(--background);
+  color: var(--foreground);
+  /* faint engineering grid */
+  background-image: linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 72px 72px;
+  background-position: -1px -1px;
+  background-attachment: fixed;
+  overflow-x: hidden;
 }
 
-.App {
+/* soften the grid so text stays readable */
+
+body::before{
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse at 50% 40%, rgba(4,7,10,0.35) 0%, rgba(4,7,10,0.92) 85%);
+}
+
+/* CRT scanlines + vignette */
+
+body::after{
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  pointer-events: none;
+  background: repeating-linear-gradient(to bottom, rgba(255,255,255,0.025) 0, rgba(255,255,255,0.025) 1px, transparent 1px, transparent 3px),
+    radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,0.55) 100%);
+  mix-blend-mode: overlay;
+}
+
+::selection{
+  background: var(--green);
+  color: var(--background);
+}
+
+.App{
+  position: relative;
   width: 100%;
+}
+
+main{
+  position: relative;
+  z-index: 2;
+}
+
+.caret{
+  display: inline-block;
+  width: 0.55em;
+  height: 1.05em;
+  margin-left: 4px;
+  vertical-align: -0.15em;
+  background: var(--green);
+  animation: blink 1.05s steps(1) infinite;
+}
+
+@keyframes blink{
+  50%{
+    opacity: 0;
+  }
+}
+
+/* ---------- shared section title ---------- */
+
+.sectionTitle{
+  position: relative;
+}
+
+.sectionCmd{
+  font-size: 0.85rem;
+  color: var(--dim);
+  margin-bottom: 14px;
+  letter-spacing: 0.02em;
+}
+
+.sectionCmd span{
+  color: var(--green);
+}
+
+.sectionMask{
+  display: block;
+  overflow: hidden;
+  padding: 0.04em 0;
+}
+
+.sectionHeading{
+  font-family: var(--display);
+  font-weight: 800;
+  font-stretch: 112%;
+  text-transform: uppercase;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  font-size: clamp(2.6rem, 8.2vw, 8.5rem);
+}
+
+.sectionLine{
+  display: block;
+}
+
+.sectionNum{
+  font-family: var(--mono);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.18em;
+  letter-spacing: 0.1em;
+  color: var(--green);
+  vertical-align: 1.9em;
+  margin-right: 0.6em;
+}
+
+@media (prefers-reduced-motion: reduce){
+  .caret{
+    animation: none;
+  }
 }

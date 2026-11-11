@@ -1,0 +1,57 @@
+.marquee{
+  position: relative;
+  z-index: 3;
+  padding: clamp(40px, 8vw, 120px) 0;
+  overflow: hidden;
+}
+
+.marqueeTilt{
+  transform: rotate(-2.4deg) scale(1.06);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: rgba(4,7,10,0.55);
+  backdrop-filter: blur(6px);
+}
+
+.marqueeRow{
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  padding: 10px 0;
+}
+
+.marqueeRow + .marqueeRow{
+  border-top: 1px solid var(--line);
+}
+
+.marqueeSet{
+  display: flex;
+  flex-shrink: 0;
+}
+
+.marqueeSet span{
+  font-family: var(--display);
+  font-weight: 850;
+  font-stretch: 112%;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: clamp(2rem, 6.4vw, 6.2rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  padding-right: 0.35em;
+  color: var(--foreground);
+}
+
+.marqueeSet em{
+  font-style: normal;
+  font-family: var(--mono);
+  color: var(--green);
+  font-size: 0.5em;
+  padding-left: 0.7em;
+  vertical-align: 0.18em;
+}
+
+.marqueeRow.isOutline .marqueeSet span{
+  color: transparent;
+  -webkit-text-stroke: 1.2px var(--cyan);
+}
