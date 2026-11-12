@@ -3,7 +3,7 @@
 <p align="center"> I'm a Software Engineer from Orlando!</p>
 
 <p>👨‍💻 I'm currently working on: CompTIA Certs and Improving portfolio📈</p>
-<p>📖 I'm currently learning: Cybersecurity</p>
+<p>📖 I'm currently learning: Cybersecurity & Systems Programming</p>
 
 ### Tech Stack
 
