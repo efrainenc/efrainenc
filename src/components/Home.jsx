@@ -62,7 +62,7 @@ const Home=({ ready })=>{
         </h1>
         <p className='welcomeFade welcomeInfo'>
           <span className='welcomePrompt'>$ ./role.sh</span>
-          A Full-Stack Developer from Orlando!
+          A Software Developer from Orlando!
           <span className='caret' />
         </p>
       </div>
