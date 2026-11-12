@@ -10,7 +10,7 @@ const LINKS = [
 ];
 
 const RESUME =
-  'https://docs.google.com/document/d/10W3QkQ4qblCWNu1jrTB4JLTZrNNZWe4EXcJhQmd-hbw/edit?usp=sharing';
+  'https://drive.proton.me/urls/WQTY00YNPG#jq9CMGTkXaBt';
 
 const Header=()=>{
   const [open, setOpen] = useState(false);
